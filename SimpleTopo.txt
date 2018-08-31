@@ -1,0 +1,12 @@
+# Simple Topology
+# Basic Mechanics - contains bidirectional links, a unidirectional link, pos/neg/0 link weights.
+# A <--(1)--> B <--(2)--> C <--(0)--> D <--(-1)-- E
+# 
+# File Format:
+# Node, Neighbor, Weight, Neighbor, Weight  (repeat as needed)
+#
+A,B,1
+B,A,1,C,2
+C,B,2,D,0
+D,C,0
+E,D,-1

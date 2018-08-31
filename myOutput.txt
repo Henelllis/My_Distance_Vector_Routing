@@ -1,0 +1,1820 @@
+THE NODE : GT Sending this to this upstream neighbor UC
+
+THE NODE : GT Sending this to this upstream neighbor EGLN
+
+THE NODE : UC Sending this to this upstream neighbor GT
+
+THE NODE : UC Sending this to this upstream neighbor OSU
+
+THE NODE : OSU Sending this to this upstream neighbor UC
+
+THE NODE : OSU Sending this to this upstream neighbor PTGN
+
+THE NODE : EGLN Sending this to this upstream neighbor GT
+
+THE NODE : EGLN Sending this to this upstream neighbor DRPA
+
+THE NODE : DRPA Sending this to this upstream neighbor EGLN
+
+THE NODE : PTGN Sending this to this upstream neighbor OSU
+
+THE NODE : CMCT Sending this to this upstream neighbor DRPA
+
+THE NODE : CMCT Sending this to this upstream neighbor TWC
+
+THE NODE : CMCT Sending this to this upstream neighbor ATT
+
+THE NODE : TWC Sending this to this upstream neighbor CMCT
+
+THE NODE : VONA Sending this to this upstream neighbor PTGN
+
+THE NODE : VONA Sending this to this upstream neighbor TWC
+
+THE NODE : VONA Sending this to this upstream neighbor GSAT
+
+THE NODE : VZ Sending this to this upstream neighbor VONA
+
+THE NODE : ATT Sending this to this upstream neighbor CMCT
+
+THE NODE : ATT Sending this to this upstream neighbor VZ
+
+THE NODE : ATT Sending this to this upstream neighbor UGA
+
+THE NODE : GSAT Sending this to this upstream neighbor VONA
+
+THE NODE : GSAT Sending this to this upstream neighbor ATT
+
+THE NODE : GSAT Sending this to this upstream neighbor UGA
+
+THE NODE : UGA Sending this to this upstream neighbor ATT
+
+THE NODE : UGA Sending this to this upstream neighbor GSAT
+
+NODE GT > msg : 1, {'UC': {'UC': 0}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'UC': 0}
+ALPHA AREA In side counter 1 creating a message to send
+NODE GT > msg : 2, {'EGLN': {'EGLN': 0}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'EGLN': 0}
+ALPHA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+GT:EGLN2,GT0,UC0
+NODE UC > msg : 1, {'GT': {'GT': 0, 'EGLN': '2', 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For GT
+		incoming outer vector name:GT
+		vector_mappings{'GT': 0, 'EGLN': '2', 'UC': '0'}
+ALPHA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE UC > msg : 2, {'OSU': {'OSU': 0}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'OSU': 0}
+ALPHA AREA In side counter 2 creating a message to send
+NODE UC > msg : 3, {'GT': {'GT': 0, 'EGLN': '2', 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For GT
+		incoming outer vector name:GT
+		vector_mappings{'GT': 0, 'EGLN': '2', 'UC': '0'}
+SENDING MESSAGE
+UC:EGLN2,GT0,OSU0,UC0
+NODE OSU > msg : 1, {'UC': {'GT': '0', 'OSU': '0', 'EGLN': 2, 'UC': 0}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'GT': '0', 'OSU': '0', 'EGLN': 2, 'UC': 0}
+ALPHA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE OSU > msg : 2, {'PTGN': {'PTGN': 0}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For PTGN
+		incoming outer vector name:PTGN
+		vector_mappings{'PTGN': 0}
+ALPHA AREA In side counter 2 creating a message to send
+NODE OSU > msg : 3, {'UC': {'GT': '0', 'OSU': '0', 'EGLN': 2, 'UC': 0}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'GT': '0', 'OSU': '0', 'EGLN': 2, 'UC': 0}
+SENDING MESSAGE
+OSU:EGLN2,GT0,OSU0,PTGN2,UC0
+NODE EGLN > msg : 1, {'GT': {'GT': 0, 'EGLN': '2', 'UC': '0'}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : -2 For GT
+		incoming outer vector name:GT
+		vector_mappings{'GT': 0, 'EGLN': '2', 'UC': '0'}
+ALPHA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE EGLN > msg : 2, {'DRPA': {'DRPA': 0}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For DRPA
+		incoming outer vector name:DRPA
+		vector_mappings{'DRPA': 0}
+ALPHA AREA In side counter 2 creating a message to send
+NODE EGLN > msg : 3, {'GT': {'GT': 0, 'EGLN': '2', 'UC': '0'}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : -2 For GT
+		incoming outer vector name:GT
+		vector_mappings{'GT': 0, 'EGLN': '2', 'UC': '0'}
+SENDING MESSAGE
+EGLN:DRPA1,EGLN0,GT-2,UC-2
+NODE DRPA > msg : 1, {'EGLN': {'DRPA': '1', 'GT': '-2', 'UC': -2, 'EGLN': 0}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'DRPA': '1', 'GT': '-2', 'UC': -2, 'EGLN': 0}
+ALPHA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE DRPA > msg : 2, {'CMCT': {'CMCT': 0}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 12 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'CMCT': 0}
+ALPHA AREA In side counter 2 creating a message to send
+NODE DRPA > msg : 3, {'EGLN': {'DRPA': '1', 'GT': '-2', 'UC': -2, 'EGLN': 0}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'DRPA': '1', 'GT': '-2', 'UC': -2, 'EGLN': 0}
+SENDING MESSAGE
+DRPA:CMCT12,DRPA0,EGLN1,GT-1,UC-1
+NODE PTGN > msg : 1, {'OSU': {'PTGN': '2', 'GT': 0, 'OSU': 0, 'EGLN': 2, 'UC': '0'}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : -1 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'PTGN': '2', 'GT': 0, 'OSU': 0, 'EGLN': 2, 'UC': '0'}
+ALPHA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE PTGN > msg : 2, {'VONA': {'VONA': 0}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : 3 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'VONA': 0}
+ALPHA AREA In side counter 2 creating a message to send
+NODE PTGN > msg : 3, {'OSU': {'PTGN': '2', 'GT': 0, 'OSU': 0, 'EGLN': 2, 'UC': '0'}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : -1 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'PTGN': '2', 'GT': 0, 'OSU': 0, 'EGLN': 2, 'UC': '0'}
+SENDING MESSAGE
+PTGN:EGLN1,GT-1,OSU-1,PTGN0,UC-1,VONA3
+NODE CMCT > msg : 1, {'TWC': {'TWC': 0}}
+	 Node CMCT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For TWC
+		incoming outer vector name:TWC
+		vector_mappings{'TWC': 0}
+ALPHA AREA In side counter 1 creating a message to send
+NODE CMCT > msg : 2, {'ATT': {'ATT': 0}}
+	 Node CMCT looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For ATT
+		incoming outer vector name:ATT
+		vector_mappings{'ATT': 0}
+ALPHA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+CMCT:ATT1,CMCT0,TWC0
+NODE TWC > msg : 1, {'CMCT': {'TWC': '0', 'ATT': '1', 'CMCT': 0}}
+	 Node TWC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': '0', 'ATT': '1', 'CMCT': 0}
+ALPHA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE TWC > msg : 2, {'VONA': {'VONA': 0}}
+	 Node TWC looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'VONA': 0}
+ALPHA AREA In side counter 2 creating a message to send
+NODE TWC > msg : 3, {'CMCT': {'TWC': '0', 'ATT': '1', 'CMCT': 0}}
+	 Node TWC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': '0', 'ATT': '1', 'CMCT': 0}
+SENDING MESSAGE
+TWC:ATT1,CMCT0,TWC0,VONA1
+NODE VONA > msg : 1, {'VZ': {'VZ': 0}}
+	 Node VONA looks like a got a message
+		This is the associated weight wiht outgoing node : 8 For VZ
+		incoming outer vector name:VZ
+		vector_mappings{'VZ': 0}
+ALPHA AREA In side counter 1 creating a message to send
+NODE VONA > msg : 2, {'GSAT': {'GSAT': 0}}
+	 Node VONA looks like a got a message
+		This is the associated weight wiht outgoing node : 3 For GSAT
+		incoming outer vector name:GSAT
+		vector_mappings{'GSAT': 0}
+ALPHA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+VONA:GSAT3,VONA0,VZ8
+NODE VZ > msg : 1, {'ATT': {'ATT': 0}}
+	 Node VZ looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For ATT
+		incoming outer vector name:ATT
+		vector_mappings{'ATT': 0}
+ALPHA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+VZ:ATT2,VZ0
+NODE ATT > msg : 1, {'CMCT': {'TWC': '0', 'ATT': '1', 'CMCT': 0}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': '0', 'ATT': '1', 'CMCT': 0}
+ALPHA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE ATT > msg : 2, {'GSAT': {'GSAT': 0}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : -8 For GSAT
+		incoming outer vector name:GSAT
+		vector_mappings{'GSAT': 0}
+ALPHA AREA In side counter 2 creating a message to send
+NODE ATT > msg : 3, {'UGA': {'UGA': 0}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : -50 For UGA
+		incoming outer vector name:UGA
+		vector_mappings{'UGA': 0}
+ALPHA AREA In side counter 3 creating a message to send
+NODE ATT > msg : 4, {'CMCT': {'TWC': '0', 'ATT': '1', 'CMCT': 0}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': '0', 'ATT': '1', 'CMCT': 0}
+SENDING MESSAGE
+ATT:ATT0,CMCT1,GSAT-8,TWC1,UGA-50
+NODE GSAT > msg : 1, {'VONA': {'GSAT': '3', 'VZ': '8', 'VONA': 0}}
+	 Node GSAT looks like a got a message
+		This is the associated weight wiht outgoing node : -3 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'GSAT': '3', 'VZ': '8', 'VONA': 0}
+ALPHA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE GSAT > msg : 2, {'UGA': {'UGA': 0}}
+	 Node GSAT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UGA
+		incoming outer vector name:UGA
+		vector_mappings{'UGA': 0}
+ALPHA AREA In side counter 2 creating a message to send
+NODE GSAT > msg : 3, {'VONA': {'GSAT': '3', 'VZ': '8', 'VONA': 0}}
+	 Node GSAT looks like a got a message
+		This is the associated weight wiht outgoing node : -3 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'GSAT': '3', 'VZ': '8', 'VONA': 0}
+SENDING MESSAGE
+GSAT:GSAT0,UGA0,VONA-3,VZ5
+NODE UGA > msg : 1, {'ATT': {'TWC': 1, 'ATT': 0, 'CMCT': '1', 'UGA': '-50', 'GSAT': '-8'}}
+	 Node UGA looks like a got a message
+		This is the associated weight wiht outgoing node : 50 For ATT
+		incoming outer vector name:ATT
+		vector_mappings{'TWC': 1, 'ATT': 0, 'CMCT': '1', 'UGA': '-50', 'GSAT': '-8'}
+ALPHA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE UGA > msg : 2, {'GSAT': {'GSAT': 0, 'VZ': 5, 'UGA': '0', 'VONA': '-3'}}
+	 Node UGA looks like a got a message
+		This is the associated weight wiht outgoing node : 50 For GSAT
+		incoming outer vector name:GSAT
+		vector_mappings{'GSAT': 0, 'VZ': 5, 'UGA': '0', 'VONA': '-3'}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+NODE UGA > msg : 3, {'ATT': {'TWC': 1, 'ATT': 0, 'CMCT': '1', 'UGA': '-50', 'GSAT': '-8'}}
+	 Node UGA looks like a got a message
+		This is the associated weight wiht outgoing node : 50 For ATT
+		incoming outer vector name:ATT
+		vector_mappings{'TWC': 1, 'ATT': 0, 'CMCT': '1', 'UGA': '-50', 'GSAT': '-8'}
+NODE UGA > msg : 4, {'GSAT': {'GSAT': 0, 'VZ': 5, 'UGA': '0', 'VONA': '-3'}}
+	 Node UGA looks like a got a message
+		This is the associated weight wiht outgoing node : 50 For GSAT
+		incoming outer vector name:GSAT
+		vector_mappings{'GSAT': 0, 'VZ': 5, 'UGA': '0', 'VONA': '-3'}
+SENDING MESSAGE
+UGA:ATT50,CMCT51,GSAT42,TWC51,UGA0,VONA39,VZ47
+NODE GT > msg : 1, {'UC': {'GT': '0', 'OSU': '0', 'EGLN': 2, 'UC': 0}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'GT': '0', 'OSU': '0', 'EGLN': 2, 'UC': 0}
+GAMMA AREA In side counter 1 creating a message to send
+NODE GT > msg : 2, {'EGLN': {'DRPA': '1', 'GT': '-2', 'UC': -2, 'EGLN': 0}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'DRPA': '1', 'GT': '-2', 'UC': -2, 'EGLN': 0}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+GT:DRPA3,EGLN2,GT0,OSU0,UC0
+NODE UC > msg : 1, {'OSU': {'PTGN': '2', 'GT': 0, 'OSU': 0, 'EGLN': 2, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'PTGN': '2', 'GT': 0, 'OSU': 0, 'EGLN': 2, 'UC': '0'}
+GAMMA AREA In side counter 1 creating a message to send
+NODE UC > msg : 2, {'GT': {'DRPA': 3, 'GT': 0, 'OSU': 0, 'EGLN': '2', 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For GT
+		incoming outer vector name:GT
+		vector_mappings{'DRPA': 3, 'GT': 0, 'OSU': 0, 'EGLN': '2', 'UC': '0'}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+UC:DRPA3,EGLN2,GT0,OSU0,PTGN2,UC0
+NODE OSU > msg : 1, {'PTGN': {'GT': -1, 'PTGN': 0, 'OSU': '-1', 'VONA': '3', 'EGLN': 1, 'UC': -1}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For PTGN
+		incoming outer vector name:PTGN
+		vector_mappings{'GT': -1, 'PTGN': 0, 'OSU': '-1', 'VONA': '3', 'EGLN': 1, 'UC': -1}
+GAMMA AREA In side counter 1 creating a message to send
+NODE OSU > msg : 2, {'UC': {'GT': '0', 'PTGN': 2, 'OSU': '0', 'EGLN': 2, 'DRPA': 3, 'UC': 0}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'GT': '0', 'PTGN': 2, 'OSU': '0', 'EGLN': 2, 'DRPA': 3, 'UC': 0}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+OSU:DRPA3,EGLN2,GT0,OSU0,PTGN2,UC0,VONA5
+NODE EGLN > msg : 1, {'DRPA': {'GT': -1, 'DRPA': 0, 'UC': -1, 'EGLN': '1', 'CMCT': '12'}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For DRPA
+		incoming outer vector name:DRPA
+		vector_mappings{'GT': -1, 'DRPA': 0, 'UC': -1, 'EGLN': '1', 'CMCT': '12'}
+GAMMA AREA In side counter 1 creating a message to send
+NODE EGLN > msg : 2, {'GT': {'DRPA': 3, 'GT': 0, 'OSU': 0, 'EGLN': '2', 'UC': '0'}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : -2 For GT
+		incoming outer vector name:GT
+		vector_mappings{'DRPA': 3, 'GT': 0, 'OSU': 0, 'EGLN': '2', 'UC': '0'}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+EGLN:CMCT13,DRPA1,EGLN0,GT-2,OSU-2,UC-2
+NODE DRPA > msg : 1, {'CMCT': {'TWC': '0', 'ATT': '1', 'CMCT': 0}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 12 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': '0', 'ATT': '1', 'CMCT': 0}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE DRPA > msg : 2, {'EGLN': {'GT': '-2', 'OSU': -2, 'EGLN': 0, 'DRPA': '1', 'CMCT': 13, 'UC': -2}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'GT': '-2', 'OSU': -2, 'EGLN': 0, 'DRPA': '1', 'CMCT': 13, 'UC': -2}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+DRPA:ATT13,CMCT12,DRPA0,EGLN1,GT-1,OSU-1,TWC12,UC-1
+NODE PTGN > msg : 1, {'VONA': {'GSAT': '3', 'VZ': '8', 'VONA': 0}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : 3 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'GSAT': '3', 'VZ': '8', 'VONA': 0}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE PTGN > msg : 2, {'OSU': {'GT': 0, 'PTGN': '2', 'OSU': 0, 'VONA': 5, 'EGLN': 2, 'DRPA': 3, 'UC': '0'}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : -1 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'GT': 0, 'PTGN': '2', 'OSU': 0, 'VONA': 5, 'EGLN': 2, 'DRPA': 3, 'UC': '0'}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+PTGN:DRPA2,EGLN1,GSAT6,GT-1,OSU-1,PTGN0,UC-1,VONA3,VZ11
+NODE CMCT > msg : 1, {'TWC': {'TWC': 0, 'ATT': 1, 'CMCT': '0', 'VONA': '1'}}
+	 Node CMCT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For TWC
+		incoming outer vector name:TWC
+		vector_mappings{'TWC': 0, 'ATT': 1, 'CMCT': '0', 'VONA': '1'}
+GAMMA AREA In side counter 1 creating a message to send
+NODE CMCT > msg : 2, {'ATT': {'TWC': 1, 'ATT': 0, 'CMCT': '1', 'UGA': '-50', 'GSAT': '-8'}}
+	 Node CMCT looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For ATT
+		incoming outer vector name:ATT
+		vector_mappings{'TWC': 1, 'ATT': 0, 'CMCT': '1', 'UGA': '-50', 'GSAT': '-8'}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+CMCT:ATT1,CMCT0,GSAT-7,TWC0,UGA-49,VONA1
+NODE TWC > msg : 1, {'VONA': {'GSAT': '3', 'VZ': '8', 'VONA': 0}}
+	 Node TWC looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'GSAT': '3', 'VZ': '8', 'VONA': 0}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE TWC > msg : 2, {'CMCT': {'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': '1', 'CMCT': 0, 'VONA': 1}}
+	 Node TWC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': '1', 'CMCT': 0, 'VONA': 1}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+TWC:ATT1,CMCT0,GSAT-7,TWC0,UGA-49,VONA1,VZ9
+NODE VONA > msg : 1, {'VZ': {'VZ': 0, 'ATT': '2'}}
+	 Node VONA looks like a got a message
+		This is the associated weight wiht outgoing node : 8 For VZ
+		incoming outer vector name:VZ
+		vector_mappings{'VZ': 0, 'ATT': '2'}
+GAMMA AREA In side counter 1 creating a message to send
+NODE VONA > msg : 2, {'GSAT': {'GSAT': 0, 'VZ': 5, 'UGA': '0', 'VONA': '-3'}}
+	 Node VONA looks like a got a message
+		This is the associated weight wiht outgoing node : 3 For GSAT
+		incoming outer vector name:GSAT
+		vector_mappings{'GSAT': 0, 'VZ': 5, 'UGA': '0', 'VONA': '-3'}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+VONA:ATT10,GSAT3,UGA3,VONA0,VZ8
+NODE VZ > msg : 1, {'ATT': {'TWC': 1, 'ATT': 0, 'CMCT': '1', 'UGA': '-50', 'GSAT': '-8'}}
+	 Node VZ looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For ATT
+		incoming outer vector name:ATT
+		vector_mappings{'TWC': 1, 'ATT': 0, 'CMCT': '1', 'UGA': '-50', 'GSAT': '-8'}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+VZ:ATT2,CMCT3,GSAT-6,TWC3,UGA-48,VZ0
+NODE ATT > msg : 1, {'GSAT': {'GSAT': 0, 'VZ': 5, 'UGA': '0', 'VONA': '-3'}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : -8 For GSAT
+		incoming outer vector name:GSAT
+		vector_mappings{'GSAT': 0, 'VZ': 5, 'UGA': '0', 'VONA': '-3'}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE ATT > msg : 2, {'UGA': {'TWC': 51, 'GSAT': 42, 'UGA': 0, 'ATT': '50', 'VZ': 47, 'CMCT': 51, 'VONA': 39}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : -50 For UGA
+		incoming outer vector name:UGA
+		vector_mappings{'TWC': 51, 'GSAT': 42, 'UGA': 0, 'ATT': '50', 'VZ': 47, 'CMCT': 51, 'VONA': 39}
+NODE ATT > msg : 3, {'CMCT': {'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': '1', 'CMCT': 0, 'VONA': 1}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': '1', 'CMCT': 0, 'VONA': 1}
+SENDING MESSAGE
+ATT:ATT0,CMCT1,GSAT-8,TWC1,UGA-50,VONA-11,VZ-3
+NODE GSAT > msg : 1, {'UGA': {'TWC': 51, 'GSAT': 42, 'UGA': 0, 'ATT': '50', 'VZ': 47, 'CMCT': 51, 'VONA': 39}}
+	 Node GSAT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UGA
+		incoming outer vector name:UGA
+		vector_mappings{'TWC': 51, 'GSAT': 42, 'UGA': 0, 'ATT': '50', 'VZ': 47, 'CMCT': 51, 'VONA': 39}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE GSAT > msg : 2, {'VONA': {'GSAT': '3', 'VZ': '8', 'ATT': 10, 'VONA': 0, 'UGA': 3}}
+	 Node GSAT looks like a got a message
+		This is the associated weight wiht outgoing node : -3 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'GSAT': '3', 'VZ': '8', 'ATT': 10, 'VONA': 0, 'UGA': 3}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+GSAT:ATT7,CMCT51,GSAT0,TWC51,UGA0,VONA-3,VZ5
+NODE UGA > msg : 1, {'ATT': {'TWC': 1, 'GSAT': '-8', 'UGA': '-50', 'ATT': 0, 'VZ': -3, 'CMCT': '1', 'VONA': -11}}
+	 Node UGA looks like a got a message
+		This is the associated weight wiht outgoing node : 50 For ATT
+		incoming outer vector name:ATT
+		vector_mappings{'TWC': 1, 'GSAT': '-8', 'UGA': '-50', 'ATT': 0, 'VZ': -3, 'CMCT': '1', 'VONA': -11}
+NODE UGA > msg : 2, {'GSAT': {'TWC': 51, 'GSAT': 0, 'UGA': '0', 'ATT': 7, 'VZ': 5, 'CMCT': 51, 'VONA': '-3'}}
+	 Node UGA looks like a got a message
+		This is the associated weight wiht outgoing node : 50 For GSAT
+		incoming outer vector name:GSAT
+		vector_mappings{'TWC': 51, 'GSAT': 0, 'UGA': '0', 'ATT': 7, 'VZ': 5, 'CMCT': 51, 'VONA': '-3'}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+UGA:ATT49,CMCT51,GSAT42,TWC51,UGA0,VONA39,VZ47
+NODE GT > msg : 1, {'UC': {'GT': '0', 'PTGN': 2, 'OSU': '0', 'EGLN': 2, 'DRPA': 3, 'UC': 0}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'GT': '0', 'PTGN': 2, 'OSU': '0', 'EGLN': 2, 'DRPA': 3, 'UC': 0}
+GAMMA AREA In side counter 1 creating a message to send
+NODE GT > msg : 2, {'EGLN': {'GT': '-2', 'OSU': -2, 'EGLN': 0, 'DRPA': '1', 'CMCT': 13, 'UC': -2}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'GT': '-2', 'OSU': -2, 'EGLN': 0, 'DRPA': '1', 'CMCT': 13, 'UC': -2}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+GT:CMCT15,DRPA3,EGLN2,GT0,OSU0,PTGN2,UC0
+NODE UC > msg : 1, {'OSU': {'GT': 0, 'PTGN': '2', 'OSU': 0, 'VONA': 5, 'EGLN': 2, 'DRPA': 3, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'GT': 0, 'PTGN': '2', 'OSU': 0, 'VONA': 5, 'EGLN': 2, 'DRPA': 3, 'UC': '0'}
+GAMMA AREA In side counter 1 creating a message to send
+NODE UC > msg : 2, {'GT': {'GT': 0, 'PTGN': 2, 'OSU': 0, 'EGLN': '2', 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For GT
+		incoming outer vector name:GT
+		vector_mappings{'GT': 0, 'PTGN': 2, 'OSU': 0, 'EGLN': '2', 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+UC:CMCT15,DRPA3,EGLN2,GT0,OSU0,PTGN2,UC0,VONA5
+NODE OSU > msg : 1, {'PTGN': {'GT': -1, 'GSAT': 6, 'PTGN': 0, 'OSU': '-1', 'VONA': '3', 'EGLN': 1, 'VZ': 11, 'DRPA': 2, 'UC': -1}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For PTGN
+		incoming outer vector name:PTGN
+		vector_mappings{'GT': -1, 'GSAT': 6, 'PTGN': 0, 'OSU': '-1', 'VONA': '3', 'EGLN': 1, 'VZ': 11, 'DRPA': 2, 'UC': -1}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE OSU > msg : 2, {'UC': {'GT': '0', 'PTGN': 2, 'OSU': '0', 'VONA': 5, 'EGLN': 2, 'DRPA': 3, 'CMCT': 15, 'UC': 0}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'GT': '0', 'PTGN': 2, 'OSU': '0', 'VONA': 5, 'EGLN': 2, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+OSU:CMCT15,DRPA3,EGLN2,GSAT8,GT0,OSU0,PTGN2,UC0,VONA5,VZ13
+NODE EGLN > msg : 1, {'DRPA': {'TWC': 12, 'GT': -1, 'OSU': -1, 'ATT': 13, 'EGLN': '1', 'DRPA': 0, 'CMCT': '12', 'UC': -1}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For DRPA
+		incoming outer vector name:DRPA
+		vector_mappings{'TWC': 12, 'GT': -1, 'OSU': -1, 'ATT': 13, 'EGLN': '1', 'DRPA': 0, 'CMCT': '12', 'UC': -1}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE EGLN > msg : 2, {'GT': {'GT': 0, 'PTGN': 2, 'OSU': 0, 'EGLN': '2', 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : -2 For GT
+		incoming outer vector name:GT
+		vector_mappings{'GT': 0, 'PTGN': 2, 'OSU': 0, 'EGLN': '2', 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+EGLN:ATT14,CMCT13,DRPA1,EGLN0,GT-2,OSU-2,PTGN0,TWC13,UC-2
+NODE DRPA > msg : 1, {'CMCT': {'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': '1', 'CMCT': 0, 'VONA': 1}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 12 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': '1', 'CMCT': 0, 'VONA': 1}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE DRPA > msg : 2, {'EGLN': {'TWC': 13, 'GT': '-2', 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'EGLN': 0, 'DRPA': '1', 'CMCT': 13, 'UC': -2}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': 13, 'GT': '-2', 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'EGLN': 0, 'DRPA': '1', 'CMCT': 13, 'UC': -2}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+DRPA:ATT13,CMCT12,DRPA0,EGLN1,GSAT5,GT-1,OSU-1,PTGN1,TWC12,UC-1,UGA-37,VONA13
+NODE PTGN > msg : 1, {'VONA': {'GSAT': '3', 'VZ': '8', 'ATT': 10, 'VONA': 0, 'UGA': 3}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : 3 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'GSAT': '3', 'VZ': '8', 'ATT': 10, 'VONA': 0, 'UGA': 3}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE PTGN > msg : 2, {'OSU': {'GT': 0, 'GSAT': 8, 'PTGN': '2', 'OSU': 0, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : -1 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'GT': 0, 'GSAT': 8, 'PTGN': '2', 'OSU': 0, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+PTGN:ATT13,CMCT14,DRPA2,EGLN1,GSAT6,GT-1,OSU-1,PTGN0,UC-1,UGA6,VONA3,VZ11
+NODE CMCT > msg : 1, {'TWC': {'TWC': 0, 'GSAT': -7, 'UGA': -49, 'ATT': 1, 'VZ': 9, 'CMCT': '0', 'VONA': '1'}}
+	 Node CMCT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For TWC
+		incoming outer vector name:TWC
+		vector_mappings{'TWC': 0, 'GSAT': -7, 'UGA': -49, 'ATT': 1, 'VZ': 9, 'CMCT': '0', 'VONA': '1'}
+GAMMA AREA In side counter 1 creating a message to send
+NODE CMCT > msg : 2, {'ATT': {'TWC': 1, 'GSAT': '-8', 'UGA': '-50', 'ATT': 0, 'VZ': -3, 'CMCT': '1', 'VONA': -11}}
+	 Node CMCT looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For ATT
+		incoming outer vector name:ATT
+		vector_mappings{'TWC': 1, 'GSAT': '-8', 'UGA': '-50', 'ATT': 0, 'VZ': -3, 'CMCT': '1', 'VONA': -11}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+CMCT:ATT1,CMCT0,GSAT-7,TWC0,UGA-49,VONA-10,VZ-2
+NODE TWC > msg : 1, {'VONA': {'GSAT': '3', 'VZ': '8', 'ATT': 10, 'VONA': 0, 'UGA': 3}}
+	 Node TWC looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'GSAT': '3', 'VZ': '8', 'ATT': 10, 'VONA': 0, 'UGA': 3}
+NODE TWC > msg : 2, {'CMCT': {'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': '1', 'VZ': -2, 'CMCT': 0, 'VONA': -10}}
+	 Node TWC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': '1', 'VZ': -2, 'CMCT': 0, 'VONA': -10}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+TWC:ATT1,CMCT0,GSAT-7,TWC0,UGA-49,VONA-10,VZ-2
+NODE VONA > msg : 1, {'VZ': {'TWC': 3, 'GSAT': -6, 'UGA': -48, 'ATT': '2', 'VZ': 0, 'CMCT': 3}}
+	 Node VONA looks like a got a message
+		This is the associated weight wiht outgoing node : 8 For VZ
+		incoming outer vector name:VZ
+		vector_mappings{'TWC': 3, 'GSAT': -6, 'UGA': -48, 'ATT': '2', 'VZ': 0, 'CMCT': 3}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE VONA > msg : 2, {'GSAT': {'TWC': 51, 'GSAT': 0, 'UGA': '0', 'ATT': 7, 'VZ': 5, 'CMCT': 51, 'VONA': '-3'}}
+	 Node VONA looks like a got a message
+		This is the associated weight wiht outgoing node : 3 For GSAT
+		incoming outer vector name:GSAT
+		vector_mappings{'TWC': 51, 'GSAT': 0, 'UGA': '0', 'ATT': 7, 'VZ': 5, 'CMCT': 51, 'VONA': '-3'}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+VONA:ATT9,CMCT11,GSAT2,TWC11,UGA-40,VONA-1,VZ7
+NODE VZ > msg : 1, {'ATT': {'TWC': 1, 'GSAT': '-8', 'UGA': '-50', 'ATT': 0, 'VZ': -3, 'CMCT': '1', 'VONA': -11}}
+	 Node VZ looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For ATT
+		incoming outer vector name:ATT
+		vector_mappings{'TWC': 1, 'GSAT': '-8', 'UGA': '-50', 'ATT': 0, 'VZ': -3, 'CMCT': '1', 'VONA': -11}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+VZ:ATT2,CMCT3,GSAT-6,TWC3,UGA-48,VONA-9,VZ-1
+NODE ATT > msg : 1, {'GSAT': {'TWC': 51, 'GSAT': 0, 'UGA': '0', 'ATT': 7, 'VZ': 5, 'CMCT': 51, 'VONA': '-3'}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : -8 For GSAT
+		incoming outer vector name:GSAT
+		vector_mappings{'TWC': 51, 'GSAT': 0, 'UGA': '0', 'ATT': 7, 'VZ': 5, 'CMCT': 51, 'VONA': '-3'}
+GAMMA AREA In side counter 1 creating a message to send
+NODE ATT > msg : 2, {'UGA': {'TWC': 51, 'GSAT': 42, 'UGA': 0, 'ATT': 49, 'VZ': 47, 'CMCT': 51, 'VONA': 39}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : -50 For UGA
+		incoming outer vector name:UGA
+		vector_mappings{'TWC': 51, 'GSAT': 42, 'UGA': 0, 'ATT': 49, 'VZ': 47, 'CMCT': 51, 'VONA': 39}
+NODE ATT > msg : 3, {'CMCT': {'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': '1', 'VZ': -2, 'CMCT': 0, 'VONA': -10}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': '1', 'VZ': -2, 'CMCT': 0, 'VONA': -10}
+SENDING MESSAGE
+ATT:ATT-1,CMCT1,GSAT-8,TWC1,UGA-50,VONA-11,VZ-3
+NODE GSAT > msg : 1, {'UGA': {'TWC': 51, 'GSAT': 42, 'UGA': 0, 'ATT': 49, 'VZ': 47, 'CMCT': 51, 'VONA': 39}}
+	 Node GSAT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UGA
+		incoming outer vector name:UGA
+		vector_mappings{'TWC': 51, 'GSAT': 42, 'UGA': 0, 'ATT': 49, 'VZ': 47, 'CMCT': 51, 'VONA': 39}
+NODE GSAT > msg : 2, {'VONA': {'TWC': 11, 'GSAT': 2, 'UGA': -40, 'ATT': 9, 'VZ': 7, 'CMCT': 11, 'VONA': -1}}
+	 Node GSAT looks like a got a message
+		This is the associated weight wiht outgoing node : -3 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'TWC': 11, 'GSAT': 2, 'UGA': -40, 'ATT': 9, 'VZ': 7, 'CMCT': 11, 'VONA': -1}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+GSAT:ATT6,CMCT8,GSAT-1,TWC8,UGA-43,VONA-4,VZ4
+NODE UGA > msg : 1, {'ATT': {'TWC': 1, 'GSAT': '-8', 'UGA': '-50', 'ATT': -1, 'VZ': -3, 'CMCT': '1', 'VONA': -11}}
+	 Node UGA looks like a got a message
+		This is the associated weight wiht outgoing node : 50 For ATT
+		incoming outer vector name:ATT
+		vector_mappings{'TWC': 1, 'GSAT': '-8', 'UGA': '-50', 'ATT': -1, 'VZ': -3, 'CMCT': '1', 'VONA': -11}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE UGA > msg : 2, {'GSAT': {'TWC': 8, 'GSAT': -1, 'UGA': -43, 'ATT': 6, 'VZ': 4, 'CMCT': 8, 'VONA': -4}}
+	 Node UGA looks like a got a message
+		This is the associated weight wiht outgoing node : 50 For GSAT
+		incoming outer vector name:GSAT
+		vector_mappings{'TWC': 8, 'GSAT': -1, 'UGA': -43, 'ATT': 6, 'VZ': 4, 'CMCT': 8, 'VONA': -4}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+UGA:ATT46,CMCT48,GSAT40,TWC49,UGA-3,VONA36,VZ44
+NODE GT > msg : 1, {'UC': {'GT': '0', 'PTGN': 2, 'OSU': '0', 'VONA': 5, 'EGLN': 2, 'DRPA': 3, 'CMCT': 15, 'UC': 0}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'GT': '0', 'PTGN': 2, 'OSU': '0', 'VONA': 5, 'EGLN': 2, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+GAMMA AREA In side counter 1 creating a message to send
+NODE GT > msg : 2, {'EGLN': {'TWC': 13, 'GT': '-2', 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'EGLN': 0, 'DRPA': '1', 'CMCT': 13, 'UC': -2}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': 13, 'GT': '-2', 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'EGLN': 0, 'DRPA': '1', 'CMCT': 13, 'UC': -2}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+GT:ATT16,CMCT15,DRPA3,EGLN2,GT0,OSU0,PTGN2,TWC15,UC0,VONA5
+NODE UC > msg : 1, {'OSU': {'GT': 0, 'GSAT': 8, 'PTGN': '2', 'OSU': 0, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'GT': 0, 'GSAT': 8, 'PTGN': '2', 'OSU': 0, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE UC > msg : 2, {'GT': {'TWC': 15, 'GT': 0, 'PTGN': 2, 'OSU': 0, 'ATT': 16, 'VONA': 5, 'EGLN': '2', 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': 15, 'GT': 0, 'PTGN': 2, 'OSU': 0, 'ATT': 16, 'VONA': 5, 'EGLN': '2', 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+UC:ATT16,CMCT15,DRPA3,EGLN2,GSAT8,GT0,OSU0,PTGN2,TWC15,UC0,VONA5,VZ13
+NODE OSU > msg : 1, {'PTGN': {'GT': -1, 'GSAT': 6, 'UGA': 6, 'PTGN': 0, 'OSU': '-1', 'ATT': 13, 'VONA': '3', 'EGLN': 1, 'VZ': 11, 'DRPA': 2, 'CMCT': 14, 'UC': -1}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For PTGN
+		incoming outer vector name:PTGN
+		vector_mappings{'GT': -1, 'GSAT': 6, 'UGA': 6, 'PTGN': 0, 'OSU': '-1', 'ATT': 13, 'VONA': '3', 'EGLN': 1, 'VZ': 11, 'DRPA': 2, 'CMCT': 14, 'UC': -1}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE OSU > msg : 2, {'UC': {'TWC': 15, 'GT': '0', 'GSAT': 8, 'PTGN': 2, 'OSU': '0', 'ATT': 16, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'TWC': 15, 'GT': '0', 'GSAT': 8, 'PTGN': 2, 'OSU': '0', 'ATT': 16, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+OSU:ATT15,CMCT15,DRPA3,EGLN2,GSAT8,GT0,OSU0,PTGN2,TWC15,UC0,UGA8,VONA5,VZ13
+NODE EGLN > msg : 1, {'DRPA': {'TWC': 12, 'GT': -1, 'GSAT': 5, 'UGA': -37, 'PTGN': 1, 'OSU': -1, 'ATT': 13, 'VONA': 13, 'EGLN': '1', 'DRPA': 0, 'CMCT': '12', 'UC': -1}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For DRPA
+		incoming outer vector name:DRPA
+		vector_mappings{'TWC': 12, 'GT': -1, 'GSAT': 5, 'UGA': -37, 'PTGN': 1, 'OSU': -1, 'ATT': 13, 'VONA': 13, 'EGLN': '1', 'DRPA': 0, 'CMCT': '12', 'UC': -1}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE EGLN > msg : 2, {'GT': {'TWC': 15, 'GT': 0, 'PTGN': 2, 'OSU': 0, 'ATT': 16, 'VONA': 5, 'EGLN': '2', 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : -2 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': 15, 'GT': 0, 'PTGN': 2, 'OSU': 0, 'ATT': 16, 'VONA': 5, 'EGLN': '2', 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+EGLN:ATT14,CMCT13,DRPA1,EGLN0,GSAT6,GT-2,OSU-2,PTGN0,TWC13,UC-2,UGA-36,VONA3
+NODE DRPA > msg : 1, {'CMCT': {'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': '1', 'VZ': -2, 'CMCT': 0, 'VONA': -10}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 12 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': '1', 'VZ': -2, 'CMCT': 0, 'VONA': -10}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE DRPA > msg : 2, {'EGLN': {'TWC': 13, 'GT': '-2', 'GSAT': 6, 'UGA': -36, 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'VONA': 3, 'EGLN': 0, 'DRPA': '1', 'CMCT': 13, 'UC': -2}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': 13, 'GT': '-2', 'GSAT': 6, 'UGA': -36, 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'VONA': 3, 'EGLN': 0, 'DRPA': '1', 'CMCT': 13, 'UC': -2}
+SENDING MESSAGE
+DRPA:ATT13,CMCT12,DRPA0,EGLN1,GSAT5,GT-1,OSU-1,PTGN1,TWC12,UC-1,UGA-37,VONA2,VZ10
+NODE PTGN > msg : 1, {'VONA': {'TWC': 11, 'GSAT': 2, 'UGA': -40, 'ATT': 9, 'VZ': 7, 'CMCT': 11, 'VONA': -1}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : 3 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'TWC': 11, 'GSAT': 2, 'UGA': -40, 'ATT': 9, 'VZ': 7, 'CMCT': 11, 'VONA': -1}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE PTGN > msg : 2, {'OSU': {'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': 8, 'PTGN': '2', 'OSU': 0, 'ATT': 15, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : -1 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': 8, 'PTGN': '2', 'OSU': 0, 'ATT': 15, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+SENDING MESSAGE
+PTGN:ATT12,CMCT14,DRPA2,EGLN1,GSAT5,GT-1,OSU-1,PTGN0,TWC14,UC-1,UGA-37,VONA2,VZ10
+NODE CMCT > msg : 1, {'TWC': {'TWC': 0, 'GSAT': -7, 'UGA': -49, 'ATT': 1, 'VZ': -2, 'CMCT': '0', 'VONA': -10}}
+	 Node CMCT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For TWC
+		incoming outer vector name:TWC
+		vector_mappings{'TWC': 0, 'GSAT': -7, 'UGA': -49, 'ATT': 1, 'VZ': -2, 'CMCT': '0', 'VONA': -10}
+NODE CMCT > msg : 2, {'ATT': {'TWC': 1, 'GSAT': '-8', 'UGA': '-50', 'ATT': -1, 'VZ': -3, 'CMCT': '1', 'VONA': -11}}
+	 Node CMCT looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For ATT
+		incoming outer vector name:ATT
+		vector_mappings{'TWC': 1, 'GSAT': '-8', 'UGA': '-50', 'ATT': -1, 'VZ': -3, 'CMCT': '1', 'VONA': -11}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+CMCT:ATT0,CMCT0,GSAT-7,TWC0,UGA-49,VONA-11,VZ-3
+NODE TWC > msg : 1, {'VONA': {'TWC': 11, 'GSAT': 2, 'UGA': -40, 'ATT': 9, 'VZ': 7, 'CMCT': 11, 'VONA': -1}}
+	 Node TWC looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'TWC': 11, 'GSAT': 2, 'UGA': -40, 'ATT': 9, 'VZ': 7, 'CMCT': 11, 'VONA': -1}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE TWC > msg : 2, {'CMCT': {'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': 0, 'VZ': -3, 'CMCT': 0, 'VONA': -11}}
+	 Node TWC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': 0, 'VZ': -3, 'CMCT': 0, 'VONA': -11}
+SENDING MESSAGE
+TWC:ATT-1,CMCT0,GSAT-8,TWC0,UGA-50,VONA-11,VZ-3
+NODE VONA > msg : 1, {'VZ': {'TWC': 3, 'GSAT': -6, 'UGA': -48, 'ATT': '2', 'VZ': -1, 'CMCT': 3, 'VONA': -9}}
+	 Node VONA looks like a got a message
+		This is the associated weight wiht outgoing node : 8 For VZ
+		incoming outer vector name:VZ
+		vector_mappings{'TWC': 3, 'GSAT': -6, 'UGA': -48, 'ATT': '2', 'VZ': -1, 'CMCT': 3, 'VONA': -9}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE VONA > msg : 2, {'GSAT': {'TWC': 8, 'GSAT': -1, 'UGA': -43, 'ATT': 6, 'VZ': 4, 'CMCT': 8, 'VONA': -4}}
+	 Node VONA looks like a got a message
+		This is the associated weight wiht outgoing node : 3 For GSAT
+		incoming outer vector name:GSAT
+		vector_mappings{'TWC': 8, 'GSAT': -1, 'UGA': -43, 'ATT': 6, 'VZ': 4, 'CMCT': 8, 'VONA': -4}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+VONA:ATT6,CMCT8,GSAT0,TWC9,UGA-43,VONA-4,VZ4
+NODE VZ > msg : 1, {'ATT': {'TWC': 1, 'GSAT': '-8', 'UGA': '-50', 'ATT': -1, 'VZ': -3, 'CMCT': '1', 'VONA': -11}}
+	 Node VZ looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For ATT
+		incoming outer vector name:ATT
+		vector_mappings{'TWC': 1, 'GSAT': '-8', 'UGA': '-50', 'ATT': -1, 'VZ': -3, 'CMCT': '1', 'VONA': -11}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+VZ:ATT1,CMCT2,GSAT-6,TWC3,UGA-48,VONA-10,VZ-2
+NODE ATT > msg : 1, {'GSAT': {'TWC': 8, 'GSAT': -1, 'UGA': -43, 'ATT': 6, 'VZ': 4, 'CMCT': 8, 'VONA': -4}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : -8 For GSAT
+		incoming outer vector name:GSAT
+		vector_mappings{'TWC': 8, 'GSAT': -1, 'UGA': -43, 'ATT': 6, 'VZ': 4, 'CMCT': 8, 'VONA': -4}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE ATT > msg : 2, {'UGA': {'TWC': 49, 'GSAT': 40, 'UGA': -3, 'ATT': 46, 'VZ': 44, 'CMCT': 48, 'VONA': 36}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : -50 For UGA
+		incoming outer vector name:UGA
+		vector_mappings{'TWC': 49, 'GSAT': 40, 'UGA': -3, 'ATT': 46, 'VZ': 44, 'CMCT': 48, 'VONA': 36}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+NODE ATT > msg : 3, {'CMCT': {'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': 0, 'VZ': -3, 'CMCT': 0, 'VONA': -11}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': 0, 'VZ': -3, 'CMCT': 0, 'VONA': -11}
+GAMMA AREA In side counter 3 creating a message to send
+GAMMA AREA In side counter 3 creating a message to send
+GAMMA AREA In side counter 3 creating a message to send
+SENDING MESSAGE
+ATT:ATT-9,CMCT-7,GSAT-14,TWC-7,UGA-56,VONA-19,VZ-11
+NODE GSAT > msg : 1, {'UGA': {'TWC': 49, 'GSAT': 40, 'UGA': -3, 'ATT': 46, 'VZ': 44, 'CMCT': 48, 'VONA': 36}}
+	 Node GSAT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UGA
+		incoming outer vector name:UGA
+		vector_mappings{'TWC': 49, 'GSAT': 40, 'UGA': -3, 'ATT': 46, 'VZ': 44, 'CMCT': 48, 'VONA': 36}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE GSAT > msg : 2, {'VONA': {'TWC': 9, 'GSAT': 0, 'UGA': -43, 'ATT': 6, 'VZ': 4, 'CMCT': 8, 'VONA': -4}}
+	 Node GSAT looks like a got a message
+		This is the associated weight wiht outgoing node : -3 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'TWC': 9, 'GSAT': 0, 'UGA': -43, 'ATT': 6, 'VZ': 4, 'CMCT': 8, 'VONA': -4}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+GSAT:ATT-4,CMCT-2,GSAT-10,TWC-1,UGA-53,VONA-14,VZ-6
+NODE UGA > msg : 1, {'ATT': {'TWC': -7, 'GSAT': -14, 'UGA': -56, 'ATT': -9, 'VZ': -11, 'CMCT': -7, 'VONA': -19}}
+	 Node UGA looks like a got a message
+		This is the associated weight wiht outgoing node : 50 For ATT
+		incoming outer vector name:ATT
+		vector_mappings{'TWC': -7, 'GSAT': -14, 'UGA': -56, 'ATT': -9, 'VZ': -11, 'CMCT': -7, 'VONA': -19}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE UGA > msg : 2, {'GSAT': {'TWC': -1, 'GSAT': -10, 'UGA': -53, 'ATT': -4, 'VZ': -6, 'CMCT': -2, 'VONA': -14}}
+	 Node UGA looks like a got a message
+		This is the associated weight wiht outgoing node : 50 For GSAT
+		incoming outer vector name:GSAT
+		vector_mappings{'TWC': -1, 'GSAT': -10, 'UGA': -53, 'ATT': -4, 'VZ': -6, 'CMCT': -2, 'VONA': -14}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+UGA:ATT18,CMCT20,GSAT22,TWC31,UGA-31,VONA8,VZ16
+NODE GT > msg : 1, {'UC': {'TWC': 15, 'GT': '0', 'GSAT': 8, 'PTGN': 2, 'OSU': '0', 'ATT': 16, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'TWC': 15, 'GT': '0', 'GSAT': 8, 'PTGN': 2, 'OSU': '0', 'ATT': 16, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE GT > msg : 2, {'EGLN': {'TWC': 13, 'GT': '-2', 'GSAT': 6, 'UGA': -36, 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'VONA': 3, 'EGLN': 0, 'DRPA': '1', 'CMCT': 13, 'UC': -2}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': 13, 'GT': '-2', 'GSAT': 6, 'UGA': -36, 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'VONA': 3, 'EGLN': 0, 'DRPA': '1', 'CMCT': 13, 'UC': -2}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+GT:ATT16,CMCT15,DRPA3,EGLN2,GSAT8,GT0,OSU0,PTGN2,TWC15,UC0,UGA-34,VONA5,VZ13
+NODE UC > msg : 1, {'OSU': {'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': 8, 'PTGN': '2', 'OSU': 0, 'ATT': 15, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': 8, 'PTGN': '2', 'OSU': 0, 'ATT': 15, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE UC > msg : 2, {'GT': {'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': 0, 'ATT': 16, 'VONA': 5, 'EGLN': '2', 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': 0, 'ATT': 16, 'VONA': 5, 'EGLN': '2', 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+UC:ATT15,CMCT15,DRPA3,EGLN2,GSAT8,GT0,OSU0,PTGN2,TWC15,UC0,UGA-34,VONA5,VZ13
+NODE OSU > msg : 1, {'PTGN': {'TWC': 14, 'GT': -1, 'GSAT': 5, 'UGA': -37, 'PTGN': 0, 'OSU': '-1', 'ATT': 12, 'VONA': 2, 'EGLN': 1, 'VZ': 10, 'DRPA': 2, 'CMCT': 14, 'UC': -1}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For PTGN
+		incoming outer vector name:PTGN
+		vector_mappings{'TWC': 14, 'GT': -1, 'GSAT': 5, 'UGA': -37, 'PTGN': 0, 'OSU': '-1', 'ATT': 12, 'VONA': 2, 'EGLN': 1, 'VZ': 10, 'DRPA': 2, 'CMCT': 14, 'UC': -1}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE OSU > msg : 2, {'UC': {'TWC': 15, 'GT': '0', 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': '0', 'ATT': 15, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'TWC': 15, 'GT': '0', 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': '0', 'ATT': 15, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+SENDING MESSAGE
+OSU:ATT14,CMCT15,DRPA3,EGLN2,GSAT7,GT0,OSU0,PTGN2,TWC15,UC0,UGA-35,VONA4,VZ12
+NODE EGLN > msg : 1, {'DRPA': {'TWC': 12, 'GT': -1, 'GSAT': 5, 'UGA': -37, 'PTGN': 1, 'OSU': -1, 'ATT': 13, 'VONA': 2, 'EGLN': '1', 'VZ': 10, 'DRPA': 0, 'CMCT': '12', 'UC': -1}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For DRPA
+		incoming outer vector name:DRPA
+		vector_mappings{'TWC': 12, 'GT': -1, 'GSAT': 5, 'UGA': -37, 'PTGN': 1, 'OSU': -1, 'ATT': 13, 'VONA': 2, 'EGLN': '1', 'VZ': 10, 'DRPA': 0, 'CMCT': '12', 'UC': -1}
+GAMMA AREA In side counter 1 creating a message to send
+NODE EGLN > msg : 2, {'GT': {'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': 0, 'ATT': 16, 'VONA': 5, 'EGLN': '2', 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : -2 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': 0, 'ATT': 16, 'VONA': 5, 'EGLN': '2', 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+SENDING MESSAGE
+EGLN:ATT14,CMCT13,DRPA1,EGLN0,GSAT6,GT-2,OSU-2,PTGN0,TWC13,UC-2,UGA-36,VONA3,VZ11
+NODE DRPA > msg : 1, {'CMCT': {'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': 0, 'VZ': -3, 'CMCT': 0, 'VONA': -11}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 12 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': '0', 'GSAT': -7, 'UGA': -49, 'ATT': 0, 'VZ': -3, 'CMCT': 0, 'VONA': -11}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE DRPA > msg : 2, {'EGLN': {'TWC': 13, 'GT': '-2', 'GSAT': 6, 'UGA': -36, 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'VONA': 3, 'EGLN': 0, 'VZ': 11, 'DRPA': '1', 'CMCT': 13, 'UC': -2}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': 13, 'GT': '-2', 'GSAT': 6, 'UGA': -36, 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'VONA': 3, 'EGLN': 0, 'VZ': 11, 'DRPA': '1', 'CMCT': 13, 'UC': -2}
+SENDING MESSAGE
+DRPA:ATT12,CMCT12,DRPA0,EGLN1,GSAT5,GT-1,OSU-1,PTGN1,TWC12,UC-1,UGA-37,VONA1,VZ9
+NODE PTGN > msg : 1, {'VONA': {'TWC': 9, 'GSAT': 0, 'UGA': -43, 'ATT': 6, 'VZ': 4, 'CMCT': 8, 'VONA': -4}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : 3 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'TWC': 9, 'GSAT': 0, 'UGA': -43, 'ATT': 6, 'VZ': 4, 'CMCT': 8, 'VONA': -4}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE PTGN > msg : 2, {'OSU': {'TWC': 15, 'GT': 0, 'GSAT': 7, 'UGA': -35, 'PTGN': '2', 'OSU': 0, 'ATT': 14, 'VONA': 4, 'EGLN': 2, 'VZ': 12, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : -1 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'TWC': 15, 'GT': 0, 'GSAT': 7, 'UGA': -35, 'PTGN': '2', 'OSU': 0, 'ATT': 14, 'VONA': 4, 'EGLN': 2, 'VZ': 12, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+SENDING MESSAGE
+PTGN:ATT8,CMCT10,DRPA2,EGLN1,GSAT2,GT-1,OSU-1,PTGN0,TWC11,UC-1,UGA-41,VONA-2,VZ6
+NODE CMCT > msg : 1, {'TWC': {'TWC': 0, 'GSAT': -8, 'UGA': -50, 'ATT': -1, 'VZ': -3, 'CMCT': '0', 'VONA': -11}}
+	 Node CMCT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For TWC
+		incoming outer vector name:TWC
+		vector_mappings{'TWC': 0, 'GSAT': -8, 'UGA': -50, 'ATT': -1, 'VZ': -3, 'CMCT': '0', 'VONA': -11}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE CMCT > msg : 2, {'ATT': {'TWC': -7, 'GSAT': -14, 'UGA': -56, 'ATT': -9, 'VZ': -11, 'CMCT': -7, 'VONA': -19}}
+	 Node CMCT looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For ATT
+		incoming outer vector name:ATT
+		vector_mappings{'TWC': -7, 'GSAT': -14, 'UGA': -56, 'ATT': -9, 'VZ': -11, 'CMCT': -7, 'VONA': -19}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+CMCT:ATT-10,CMCT-17,GSAT-15,TWC-8,UGA-57,VONA-29,VZ-21
+NODE TWC > msg : 1, {'VONA': {'TWC': 9, 'GSAT': 0, 'UGA': -43, 'ATT': 6, 'VZ': 4, 'CMCT': 8, 'VONA': -4}}
+	 Node TWC looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'TWC': 9, 'GSAT': 0, 'UGA': -43, 'ATT': 6, 'VZ': 4, 'CMCT': 8, 'VONA': -4}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE TWC > msg : 2, {'CMCT': {'TWC': -8, 'GSAT': -15, 'UGA': -57, 'ATT': -10, 'VZ': -21, 'CMCT': -17, 'VONA': -29}}
+	 Node TWC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': -8, 'GSAT': -15, 'UGA': -57, 'ATT': -10, 'VZ': -21, 'CMCT': -17, 'VONA': -29}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+TWC:ATT-13,CMCT-20,GSAT-18,TWC-11,UGA-60,VONA-49,VZ-24
+NODE VONA > msg : 1, {'VZ': {'TWC': 3, 'GSAT': -6, 'UGA': -48, 'ATT': 1, 'VZ': -2, 'CMCT': 2, 'VONA': -10}}
+	 Node VONA looks like a got a message
+		This is the associated weight wiht outgoing node : 8 For VZ
+		incoming outer vector name:VZ
+		vector_mappings{'TWC': 3, 'GSAT': -6, 'UGA': -48, 'ATT': 1, 'VZ': -2, 'CMCT': 2, 'VONA': -10}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE VONA > msg : 2, {'GSAT': {'TWC': -1, 'GSAT': -10, 'UGA': -53, 'ATT': -4, 'VZ': -6, 'CMCT': -2, 'VONA': -14}}
+	 Node VONA looks like a got a message
+		This is the associated weight wiht outgoing node : 3 For GSAT
+		incoming outer vector name:GSAT
+		vector_mappings{'TWC': -1, 'GSAT': -10, 'UGA': -53, 'ATT': -4, 'VZ': -6, 'CMCT': -2, 'VONA': -14}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+VONA:ATT-16,CMCT-14,GSAT-12,TWC-3,UGA-65,VONA-26,VZ-18
+NODE VZ > msg : 1, {'ATT': {'TWC': -7, 'GSAT': -14, 'UGA': -56, 'ATT': -9, 'VZ': -11, 'CMCT': -7, 'VONA': -19}}
+	 Node VZ looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For ATT
+		incoming outer vector name:ATT
+		vector_mappings{'TWC': -7, 'GSAT': -14, 'UGA': -56, 'ATT': -9, 'VZ': -11, 'CMCT': -7, 'VONA': -19}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+VZ:ATT-8,CMCT-15,GSAT-13,TWC-6,UGA-55,VONA-27,VZ-19
+NODE ATT > msg : 1, {'GSAT': {'TWC': -1, 'GSAT': -10, 'UGA': -53, 'ATT': -4, 'VZ': -6, 'CMCT': -2, 'VONA': -14}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : -8 For GSAT
+		incoming outer vector name:GSAT
+		vector_mappings{'TWC': -1, 'GSAT': -10, 'UGA': -53, 'ATT': -4, 'VZ': -6, 'CMCT': -2, 'VONA': -14}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE ATT > msg : 2, {'UGA': {'TWC': 31, 'GSAT': 22, 'UGA': -31, 'ATT': 18, 'VZ': 16, 'CMCT': 20, 'VONA': 8}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : -50 For UGA
+		incoming outer vector name:UGA
+		vector_mappings{'TWC': 31, 'GSAT': 22, 'UGA': -31, 'ATT': 18, 'VZ': 16, 'CMCT': 20, 'VONA': 8}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+NODE ATT > msg : 3, {'CMCT': {'TWC': -8, 'GSAT': -15, 'UGA': -57, 'ATT': -10, 'VZ': -21, 'CMCT': -17, 'VONA': -29}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': -8, 'GSAT': -15, 'UGA': -57, 'ATT': -10, 'VZ': -21, 'CMCT': -17, 'VONA': -29}
+GAMMA AREA In side counter 3 creating a message to send
+GAMMA AREA In side counter 3 creating a message to send
+GAMMA AREA In side counter 3 creating a message to send
+GAMMA AREA In side counter 3 creating a message to send
+GAMMA AREA In side counter 3 creating a message to send
+GAMMA AREA In side counter 3 creating a message to send
+GAMMA AREA In side counter 3 creating a message to send
+ATT:ATT-89,CMCT-96,GSAT-94,TWC-87,UGA-99,VONA-99,VZ-99
+NODE GSAT > msg : 1, {'UGA': {'TWC': 31, 'GSAT': 22, 'UGA': -31, 'ATT': 18, 'VZ': 16, 'CMCT': 20, 'VONA': 8}}
+	 Node GSAT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UGA
+		incoming outer vector name:UGA
+		vector_mappings{'TWC': 31, 'GSAT': 22, 'UGA': -31, 'ATT': 18, 'VZ': 16, 'CMCT': 20, 'VONA': 8}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE GSAT > msg : 2, {'VONA': {'TWC': -3, 'GSAT': -12, 'UGA': -65, 'ATT': -16, 'VZ': -18, 'CMCT': -14, 'VONA': -26}}
+	 Node GSAT looks like a got a message
+		This is the associated weight wiht outgoing node : -3 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'TWC': -3, 'GSAT': -12, 'UGA': -65, 'ATT': -16, 'VZ': -18, 'CMCT': -14, 'VONA': -26}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GSAT:ATT-92,CMCT-90,GSAT-88,TWC-79,UGA-99,VONA-99,VZ-94
+UGA:ATT18,CMCT20,GSAT22,TWC31,UGA-31,VONA8,VZ16
+NODE GT > msg : 1, {'UC': {'TWC': 15, 'GT': '0', 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': '0', 'ATT': 15, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'TWC': 15, 'GT': '0', 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': '0', 'ATT': 15, 'VONA': 5, 'EGLN': 2, 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+GAMMA AREA In side counter 1 creating a message to send
+NODE GT > msg : 2, {'EGLN': {'TWC': 13, 'GT': '-2', 'GSAT': 6, 'UGA': -36, 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'VONA': 3, 'EGLN': 0, 'VZ': 11, 'DRPA': '1', 'CMCT': 13, 'UC': -2}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': 13, 'GT': '-2', 'GSAT': 6, 'UGA': -36, 'PTGN': 0, 'OSU': -2, 'ATT': 14, 'VONA': 3, 'EGLN': 0, 'VZ': 11, 'DRPA': '1', 'CMCT': 13, 'UC': -2}
+SENDING MESSAGE
+GT:ATT15,CMCT15,DRPA3,EGLN2,GSAT8,GT0,OSU0,PTGN2,TWC15,UC0,UGA-34,VONA5,VZ13
+NODE UC > msg : 1, {'OSU': {'TWC': 15, 'GT': 0, 'GSAT': 7, 'UGA': -35, 'PTGN': '2', 'OSU': 0, 'ATT': 14, 'VONA': 4, 'EGLN': 2, 'VZ': 12, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'TWC': 15, 'GT': 0, 'GSAT': 7, 'UGA': -35, 'PTGN': '2', 'OSU': 0, 'ATT': 14, 'VONA': 4, 'EGLN': 2, 'VZ': 12, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE UC > msg : 2, {'GT': {'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': 0, 'ATT': 15, 'VONA': 5, 'EGLN': '2', 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': 0, 'ATT': 15, 'VONA': 5, 'EGLN': '2', 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+SENDING MESSAGE
+UC:ATT14,CMCT15,DRPA3,EGLN2,GSAT7,GT0,OSU0,PTGN2,TWC15,UC0,UGA-35,VONA4,VZ12
+NODE OSU > msg : 1, {'PTGN': {'TWC': 11, 'GT': -1, 'GSAT': 2, 'UGA': -41, 'PTGN': 0, 'OSU': '-1', 'ATT': 8, 'VONA': -2, 'EGLN': 1, 'VZ': 6, 'DRPA': 2, 'CMCT': 10, 'UC': -1}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For PTGN
+		incoming outer vector name:PTGN
+		vector_mappings{'TWC': 11, 'GT': -1, 'GSAT': 2, 'UGA': -41, 'PTGN': 0, 'OSU': '-1', 'ATT': 8, 'VONA': -2, 'EGLN': 1, 'VZ': 6, 'DRPA': 2, 'CMCT': 10, 'UC': -1}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE OSU > msg : 2, {'UC': {'TWC': 15, 'GT': '0', 'GSAT': 7, 'UGA': -35, 'PTGN': 2, 'OSU': '0', 'ATT': 14, 'VONA': 4, 'EGLN': 2, 'VZ': 12, 'DRPA': 3, 'CMCT': 15, 'UC': 0}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'TWC': 15, 'GT': '0', 'GSAT': 7, 'UGA': -35, 'PTGN': 2, 'OSU': '0', 'ATT': 14, 'VONA': 4, 'EGLN': 2, 'VZ': 12, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+SENDING MESSAGE
+OSU:ATT10,CMCT12,DRPA3,EGLN2,GSAT4,GT0,OSU0,PTGN2,TWC13,UC0,UGA-39,VONA0,VZ8
+NODE EGLN > msg : 1, {'DRPA': {'TWC': 12, 'GT': -1, 'GSAT': 5, 'UGA': -37, 'PTGN': 1, 'OSU': -1, 'ATT': 12, 'VONA': 1, 'EGLN': '1', 'VZ': 9, 'DRPA': 0, 'CMCT': '12', 'UC': -1}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For DRPA
+		incoming outer vector name:DRPA
+		vector_mappings{'TWC': 12, 'GT': -1, 'GSAT': 5, 'UGA': -37, 'PTGN': 1, 'OSU': -1, 'ATT': 12, 'VONA': 1, 'EGLN': '1', 'VZ': 9, 'DRPA': 0, 'CMCT': '12', 'UC': -1}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE EGLN > msg : 2, {'GT': {'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': 0, 'ATT': 15, 'VONA': 5, 'EGLN': '2', 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : -2 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': 15, 'GT': 0, 'GSAT': 8, 'UGA': -34, 'PTGN': 2, 'OSU': 0, 'ATT': 15, 'VONA': 5, 'EGLN': '2', 'VZ': 13, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+SENDING MESSAGE
+EGLN:ATT13,CMCT13,DRPA1,EGLN0,GSAT6,GT-2,OSU-2,PTGN0,TWC13,UC-2,UGA-36,VONA2,VZ10
+NODE DRPA > msg : 1, {'CMCT': {'TWC': -8, 'GSAT': -15, 'UGA': -57, 'ATT': -10, 'VZ': -21, 'CMCT': -17, 'VONA': -29}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 12 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': -8, 'GSAT': -15, 'UGA': -57, 'ATT': -10, 'VZ': -21, 'CMCT': -17, 'VONA': -29}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE DRPA > msg : 2, {'EGLN': {'TWC': 13, 'GT': '-2', 'GSAT': 6, 'UGA': -36, 'PTGN': 0, 'OSU': -2, 'ATT': 13, 'VONA': 2, 'EGLN': 0, 'VZ': 10, 'DRPA': '1', 'CMCT': 13, 'UC': -2}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': 13, 'GT': '-2', 'GSAT': 6, 'UGA': -36, 'PTGN': 0, 'OSU': -2, 'ATT': 13, 'VONA': 2, 'EGLN': 0, 'VZ': 10, 'DRPA': '1', 'CMCT': 13, 'UC': -2}
+SENDING MESSAGE
+DRPA:ATT2,CMCT-5,DRPA0,EGLN1,GSAT-3,GT-1,OSU-1,PTGN1,TWC4,UC-1,UGA-45,VONA-34,VZ-9
+NODE PTGN > msg : 1, {'VONA': {'TWC': -3, 'GSAT': -12, 'UGA': -65, 'ATT': -16, 'VZ': -18, 'CMCT': -14, 'VONA': -26}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : 3 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'TWC': -3, 'GSAT': -12, 'UGA': -65, 'ATT': -16, 'VZ': -18, 'CMCT': -14, 'VONA': -26}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE PTGN > msg : 2, {'OSU': {'TWC': 13, 'GT': 0, 'GSAT': 4, 'UGA': -39, 'PTGN': '2', 'OSU': 0, 'ATT': 10, 'VONA': 0, 'EGLN': 2, 'VZ': 8, 'DRPA': 3, 'CMCT': 12, 'UC': '0'}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : -1 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'TWC': 13, 'GT': 0, 'GSAT': 4, 'UGA': -39, 'PTGN': '2', 'OSU': 0, 'ATT': 10, 'VONA': 0, 'EGLN': 2, 'VZ': 8, 'DRPA': 3, 'CMCT': 12, 'UC': '0'}
+SENDING MESSAGE
+PTGN:ATT-18,CMCT-16,DRPA2,EGLN1,GSAT-14,GT-1,OSU-1,PTGN0,TWC-5,UC-1,UGA-67,VONA-28,VZ-20
+NODE CMCT > msg : 1, {'TWC': {'TWC': -11, 'GSAT': -18, 'UGA': -60, 'ATT': -13, 'VZ': -24, 'CMCT': -20, 'VONA': -49}}
+	 Node CMCT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For TWC
+		incoming outer vector name:TWC
+		vector_mappings{'TWC': -11, 'GSAT': -18, 'UGA': -60, 'ATT': -13, 'VZ': -24, 'CMCT': -20, 'VONA': -49}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+CMCT:ATT-32,CMCT-39,GSAT-37,TWC-19,UGA-79,VONA-68,VZ-43
+NODE TWC > msg : 1, {'VONA': {'TWC': -3, 'GSAT': -12, 'UGA': -65, 'ATT': -16, 'VZ': -18, 'CMCT': -14, 'VONA': -26}}
+	 Node TWC looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'TWC': -3, 'GSAT': -12, 'UGA': -65, 'ATT': -16, 'VZ': -18, 'CMCT': -14, 'VONA': -26}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE TWC > msg : 2, {'CMCT': {'TWC': -19, 'GSAT': -37, 'UGA': -79, 'ATT': -32, 'VZ': -43, 'CMCT': -39, 'VONA': -68}}
+	 Node TWC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': -19, 'GSAT': -37, 'UGA': -79, 'ATT': -32, 'VZ': -43, 'CMCT': -39, 'VONA': -68}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+TWC:ATT-95,CMCT-99,GSAT-99,TWC-82,UGA-99,VONA-99,VZ-99
+NODE VONA > msg : 1, {'VZ': {'TWC': -6, 'GSAT': -13, 'UGA': -55, 'ATT': -8, 'VZ': -19, 'CMCT': -15, 'VONA': -27}}
+	 Node VONA looks like a got a message
+		This is the associated weight wiht outgoing node : 8 For VZ
+		incoming outer vector name:VZ
+		vector_mappings{'TWC': -6, 'GSAT': -13, 'UGA': -55, 'ATT': -8, 'VZ': -19, 'CMCT': -15, 'VONA': -27}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+VONA:ATT-26,CMCT-52,GSAT-31,TWC-24,UGA-73,VONA-64,VZ-37
+VZ:ATT-8,CMCT-15,GSAT-13,TWC-6,UGA-55,VONA-27,VZ-19
+NODE ATT > msg : 1, {'CMCT': {'TWC': -19, 'GSAT': -37, 'UGA': -79, 'ATT': -32, 'VZ': -43, 'CMCT': -39, 'VONA': -68}}
+	 Node ATT looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': -19, 'GSAT': -37, 'UGA': -79, 'ATT': -32, 'VZ': -43, 'CMCT': -39, 'VONA': -68}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+ATT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+NODE GSAT > msg : 1, {'VONA': {'TWC': -24, 'GSAT': -31, 'UGA': -73, 'ATT': -26, 'VZ': -37, 'CMCT': -52, 'VONA': -64}}
+	 Node GSAT looks like a got a message
+		This is the associated weight wiht outgoing node : -3 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'TWC': -24, 'GSAT': -31, 'UGA': -73, 'ATT': -26, 'VZ': -37, 'CMCT': -52, 'VONA': -64}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GSAT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+UGA:ATT18,CMCT20,GSAT22,TWC31,UGA-31,VONA8,VZ16
+NODE GT > msg : 1, {'UC': {'TWC': 15, 'GT': '0', 'GSAT': 7, 'UGA': -35, 'PTGN': 2, 'OSU': '0', 'ATT': 14, 'VONA': 4, 'EGLN': 2, 'VZ': 12, 'DRPA': 3, 'CMCT': 15, 'UC': 0}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'TWC': 15, 'GT': '0', 'GSAT': 7, 'UGA': -35, 'PTGN': 2, 'OSU': '0', 'ATT': 14, 'VONA': 4, 'EGLN': 2, 'VZ': 12, 'DRPA': 3, 'CMCT': 15, 'UC': 0}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE GT > msg : 2, {'EGLN': {'TWC': 13, 'GT': '-2', 'GSAT': 6, 'UGA': -36, 'PTGN': 0, 'OSU': -2, 'ATT': 13, 'VONA': 2, 'EGLN': 0, 'VZ': 10, 'DRPA': '1', 'CMCT': 13, 'UC': -2}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': 13, 'GT': '-2', 'GSAT': 6, 'UGA': -36, 'PTGN': 0, 'OSU': -2, 'ATT': 13, 'VONA': 2, 'EGLN': 0, 'VZ': 10, 'DRPA': '1', 'CMCT': 13, 'UC': -2}
+SENDING MESSAGE
+GT:ATT14,CMCT15,DRPA3,EGLN2,GSAT7,GT0,OSU0,PTGN2,TWC15,UC0,UGA-35,VONA4,VZ12
+NODE UC > msg : 1, {'OSU': {'TWC': 13, 'GT': 0, 'GSAT': 4, 'UGA': -39, 'PTGN': '2', 'OSU': 0, 'ATT': 10, 'VONA': 0, 'EGLN': 2, 'VZ': 8, 'DRPA': 3, 'CMCT': 12, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'TWC': 13, 'GT': 0, 'GSAT': 4, 'UGA': -39, 'PTGN': '2', 'OSU': 0, 'ATT': 10, 'VONA': 0, 'EGLN': 2, 'VZ': 8, 'DRPA': 3, 'CMCT': 12, 'UC': '0'}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE UC > msg : 2, {'GT': {'TWC': 15, 'GT': 0, 'GSAT': 7, 'UGA': -35, 'PTGN': 2, 'OSU': 0, 'ATT': 14, 'VONA': 4, 'EGLN': '2', 'VZ': 12, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': 15, 'GT': 0, 'GSAT': 7, 'UGA': -35, 'PTGN': 2, 'OSU': 0, 'ATT': 14, 'VONA': 4, 'EGLN': '2', 'VZ': 12, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+SENDING MESSAGE
+UC:ATT10,CMCT12,DRPA3,EGLN2,GSAT4,GT0,OSU0,PTGN2,TWC13,UC0,UGA-39,VONA0,VZ8
+NODE OSU > msg : 1, {'PTGN': {'TWC': -5, 'GT': -1, 'GSAT': -14, 'UGA': -67, 'PTGN': 0, 'OSU': '-1', 'ATT': -18, 'VONA': -28, 'EGLN': 1, 'VZ': -20, 'DRPA': 2, 'CMCT': -16, 'UC': -1}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For PTGN
+		incoming outer vector name:PTGN
+		vector_mappings{'TWC': -5, 'GT': -1, 'GSAT': -14, 'UGA': -67, 'PTGN': 0, 'OSU': '-1', 'ATT': -18, 'VONA': -28, 'EGLN': 1, 'VZ': -20, 'DRPA': 2, 'CMCT': -16, 'UC': -1}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE OSU > msg : 2, {'UC': {'TWC': 13, 'GT': '0', 'GSAT': 4, 'UGA': -39, 'PTGN': 2, 'OSU': '0', 'ATT': 10, 'VONA': 0, 'EGLN': 2, 'VZ': 8, 'DRPA': 3, 'CMCT': 12, 'UC': 0}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'TWC': 13, 'GT': '0', 'GSAT': 4, 'UGA': -39, 'PTGN': 2, 'OSU': '0', 'ATT': 10, 'VONA': 0, 'EGLN': 2, 'VZ': 8, 'DRPA': 3, 'CMCT': 12, 'UC': 0}
+SENDING MESSAGE
+OSU:ATT-16,CMCT-14,DRPA3,EGLN2,GSAT-12,GT0,OSU0,PTGN2,TWC-3,UC0,UGA-65,VONA-26,VZ-18
+NODE EGLN > msg : 1, {'DRPA': {'TWC': 4, 'GT': -1, 'GSAT': -3, 'UGA': -45, 'PTGN': 1, 'OSU': -1, 'ATT': 2, 'VONA': -34, 'EGLN': '1', 'VZ': -9, 'DRPA': 0, 'CMCT': -5, 'UC': -1}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For DRPA
+		incoming outer vector name:DRPA
+		vector_mappings{'TWC': 4, 'GT': -1, 'GSAT': -3, 'UGA': -45, 'PTGN': 1, 'OSU': -1, 'ATT': 2, 'VONA': -34, 'EGLN': '1', 'VZ': -9, 'DRPA': 0, 'CMCT': -5, 'UC': -1}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE EGLN > msg : 2, {'GT': {'TWC': 15, 'GT': 0, 'GSAT': 7, 'UGA': -35, 'PTGN': 2, 'OSU': 0, 'ATT': 14, 'VONA': 4, 'EGLN': '2', 'VZ': 12, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : -2 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': 15, 'GT': 0, 'GSAT': 7, 'UGA': -35, 'PTGN': 2, 'OSU': 0, 'ATT': 14, 'VONA': 4, 'EGLN': '2', 'VZ': 12, 'DRPA': 3, 'CMCT': 15, 'UC': '0'}
+SENDING MESSAGE
+EGLN:ATT3,CMCT-4,DRPA1,EGLN0,GSAT-2,GT-2,OSU-2,PTGN0,TWC5,UC-2,UGA-44,VONA-33,VZ-8
+NODE DRPA > msg : 1, {'CMCT': {'TWC': -19, 'GSAT': -37, 'UGA': -79, 'ATT': -32, 'VZ': -43, 'CMCT': -39, 'VONA': -68}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 12 For CMCT
+		incoming outer vector name:CMCT
+		vector_mappings{'TWC': -19, 'GSAT': -37, 'UGA': -79, 'ATT': -32, 'VZ': -43, 'CMCT': -39, 'VONA': -68}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE DRPA > msg : 2, {'EGLN': {'TWC': 5, 'GT': '-2', 'GSAT': -2, 'UGA': -44, 'PTGN': 0, 'OSU': -2, 'ATT': 3, 'VONA': -33, 'EGLN': 0, 'VZ': -8, 'DRPA': '1', 'CMCT': -4, 'UC': -2}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': 5, 'GT': '-2', 'GSAT': -2, 'UGA': -44, 'PTGN': 0, 'OSU': -2, 'ATT': 3, 'VONA': -33, 'EGLN': 0, 'VZ': -8, 'DRPA': '1', 'CMCT': -4, 'UC': -2}
+DRPA:ATT-37,CMCT-44,DRPA0,EGLN1,GSAT-42,GT-1,OSU-1,PTGN1,TWC-24,UC-1,UGA-84,VONA-99,VZ-48
+NODE PTGN > msg : 1, {'VONA': {'TWC': -24, 'GSAT': -31, 'UGA': -73, 'ATT': -26, 'VZ': -37, 'CMCT': -52, 'VONA': -64}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : 3 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'TWC': -24, 'GSAT': -31, 'UGA': -73, 'ATT': -26, 'VZ': -37, 'CMCT': -52, 'VONA': -64}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE PTGN > msg : 2, {'OSU': {'TWC': -3, 'GT': 0, 'GSAT': -12, 'UGA': -65, 'PTGN': '2', 'OSU': 0, 'ATT': -16, 'VONA': -26, 'EGLN': 2, 'VZ': -18, 'DRPA': 3, 'CMCT': -14, 'UC': '0'}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : -1 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'TWC': -3, 'GT': 0, 'GSAT': -12, 'UGA': -65, 'PTGN': '2', 'OSU': 0, 'ATT': -16, 'VONA': -26, 'EGLN': 2, 'VZ': -18, 'DRPA': 3, 'CMCT': -14, 'UC': '0'}
+SENDING MESSAGE
+PTGN:ATT-54,CMCT-80,DRPA2,EGLN1,GSAT-59,GT-1,OSU-1,PTGN0,TWC-52,UC-1,UGA-99,VONA-92,VZ-65
+CMCT:ATT-32,CMCT-39,GSAT-37,TWC-19,UGA-79,VONA-68,VZ-43
+NODE TWC > msg : 1, {'VONA': {'TWC': -24, 'GSAT': -31, 'UGA': -73, 'ATT': -26, 'VZ': -37, 'CMCT': -52, 'VONA': -64}}
+	 Node TWC looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For VONA
+		incoming outer vector name:VONA
+		vector_mappings{'TWC': -24, 'GSAT': -31, 'UGA': -73, 'ATT': -26, 'VZ': -37, 'CMCT': -52, 'VONA': -64}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+TWC:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+VONA:ATT-26,CMCT-52,GSAT-31,TWC-24,UGA-73,VONA-64,VZ-37
+VZ:ATT-8,CMCT-15,GSAT-13,TWC-6,UGA-55,VONA-27,VZ-19
+ATT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+GSAT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+UGA:ATT18,CMCT20,GSAT22,TWC31,UGA-31,VONA8,VZ16
+NODE GT > msg : 1, {'UC': {'TWC': 13, 'GT': '0', 'GSAT': 4, 'UGA': -39, 'PTGN': 2, 'OSU': '0', 'ATT': 10, 'VONA': 0, 'EGLN': 2, 'VZ': 8, 'DRPA': 3, 'CMCT': 12, 'UC': 0}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'TWC': 13, 'GT': '0', 'GSAT': 4, 'UGA': -39, 'PTGN': 2, 'OSU': '0', 'ATT': 10, 'VONA': 0, 'EGLN': 2, 'VZ': 8, 'DRPA': 3, 'CMCT': 12, 'UC': 0}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE GT > msg : 2, {'EGLN': {'TWC': 5, 'GT': '-2', 'GSAT': -2, 'UGA': -44, 'PTGN': 0, 'OSU': -2, 'ATT': 3, 'VONA': -33, 'EGLN': 0, 'VZ': -8, 'DRPA': '1', 'CMCT': -4, 'UC': -2}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': 5, 'GT': '-2', 'GSAT': -2, 'UGA': -44, 'PTGN': 0, 'OSU': -2, 'ATT': 3, 'VONA': -33, 'EGLN': 0, 'VZ': -8, 'DRPA': '1', 'CMCT': -4, 'UC': -2}
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+GT:ATT5,CMCT-2,DRPA3,EGLN2,GSAT0,GT0,OSU0,PTGN2,TWC7,UC0,UGA-42,VONA-31,VZ-6
+NODE UC > msg : 1, {'OSU': {'TWC': -3, 'GT': 0, 'GSAT': -12, 'UGA': -65, 'PTGN': '2', 'OSU': 0, 'ATT': -16, 'VONA': -26, 'EGLN': 2, 'VZ': -18, 'DRPA': 3, 'CMCT': -14, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'TWC': -3, 'GT': 0, 'GSAT': -12, 'UGA': -65, 'PTGN': '2', 'OSU': 0, 'ATT': -16, 'VONA': -26, 'EGLN': 2, 'VZ': -18, 'DRPA': 3, 'CMCT': -14, 'UC': '0'}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE UC > msg : 2, {'GT': {'TWC': 7, 'GT': 0, 'GSAT': 0, 'UGA': -42, 'PTGN': 2, 'OSU': 0, 'ATT': 5, 'VONA': -31, 'EGLN': '2', 'VZ': -6, 'DRPA': 3, 'CMCT': -2, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': 7, 'GT': 0, 'GSAT': 0, 'UGA': -42, 'PTGN': 2, 'OSU': 0, 'ATT': 5, 'VONA': -31, 'EGLN': '2', 'VZ': -6, 'DRPA': 3, 'CMCT': -2, 'UC': '0'}
+GAMMA AREA In side counter 2 creating a message to send
+SENDING MESSAGE
+UC:ATT-16,CMCT-14,DRPA3,EGLN2,GSAT-12,GT0,OSU0,PTGN2,TWC-3,UC0,UGA-65,VONA-31,VZ-18
+NODE OSU > msg : 1, {'PTGN': {'TWC': -52, 'GT': -1, 'GSAT': -59, 'UGA': -99, 'PTGN': 0, 'OSU': '-1', 'ATT': -54, 'VONA': -92, 'EGLN': 1, 'VZ': -65, 'DRPA': 2, 'CMCT': -80, 'UC': -1}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For PTGN
+		incoming outer vector name:PTGN
+		vector_mappings{'TWC': -52, 'GT': -1, 'GSAT': -59, 'UGA': -99, 'PTGN': 0, 'OSU': '-1', 'ATT': -54, 'VONA': -92, 'EGLN': 1, 'VZ': -65, 'DRPA': 2, 'CMCT': -80, 'UC': -1}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE OSU > msg : 2, {'UC': {'TWC': -3, 'GT': '0', 'GSAT': -12, 'UGA': -65, 'PTGN': 2, 'OSU': '0', 'ATT': -16, 'VONA': -31, 'EGLN': 2, 'VZ': -18, 'DRPA': 3, 'CMCT': -14, 'UC': 0}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'TWC': -3, 'GT': '0', 'GSAT': -12, 'UGA': -65, 'PTGN': 2, 'OSU': '0', 'ATT': -16, 'VONA': -31, 'EGLN': 2, 'VZ': -18, 'DRPA': 3, 'CMCT': -14, 'UC': 0}
+SENDING MESSAGE
+OSU:ATT-52,CMCT-78,DRPA3,EGLN2,GSAT-57,GT0,OSU0,PTGN2,TWC-50,UC0,UGA-97,VONA-90,VZ-63
+NODE EGLN > msg : 1, {'GT': {'TWC': 7, 'GT': 0, 'GSAT': 0, 'UGA': -42, 'PTGN': 2, 'OSU': 0, 'ATT': 5, 'VONA': -31, 'EGLN': '2', 'VZ': -6, 'DRPA': 3, 'CMCT': -2, 'UC': '0'}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : -2 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': 7, 'GT': 0, 'GSAT': 0, 'UGA': -42, 'PTGN': 2, 'OSU': 0, 'ATT': 5, 'VONA': -31, 'EGLN': '2', 'VZ': -6, 'DRPA': 3, 'CMCT': -2, 'UC': '0'}
+EGLN:ATT3,CMCT-4,DRPA1,EGLN0,GSAT-2,GT-2,OSU-2,PTGN0,TWC5,UC-2,UGA-44,VONA-33,VZ-8
+DRPA:ATT-37,CMCT-44,DRPA0,EGLN1,GSAT-42,GT-1,OSU-1,PTGN1,TWC-24,UC-1,UGA-84,VONA-99,VZ-48
+NODE PTGN > msg : 1, {'OSU': {'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': '2', 'OSU': 0, 'ATT': -52, 'VONA': -90, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : -1 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': '2', 'OSU': 0, 'ATT': -52, 'VONA': -90, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}
+PTGN:ATT-54,CMCT-80,DRPA2,EGLN1,GSAT-59,GT-1,OSU-1,PTGN0,TWC-52,UC-1,UGA-99,VONA-92,VZ-65
+CMCT:ATT-32,CMCT-39,GSAT-37,TWC-19,UGA-79,VONA-68,VZ-43
+TWC:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+VONA:ATT-26,CMCT-52,GSAT-31,TWC-24,UGA-73,VONA-64,VZ-37
+VZ:ATT-8,CMCT-15,GSAT-13,TWC-6,UGA-55,VONA-27,VZ-19
+ATT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+GSAT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+UGA:ATT18,CMCT20,GSAT22,TWC31,UGA-31,VONA8,VZ16
+NODE GT > msg : 1, {'UC': {'TWC': -3, 'GT': '0', 'GSAT': -12, 'UGA': -65, 'PTGN': 2, 'OSU': '0', 'ATT': -16, 'VONA': -31, 'EGLN': 2, 'VZ': -18, 'DRPA': 3, 'CMCT': -14, 'UC': 0}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'TWC': -3, 'GT': '0', 'GSAT': -12, 'UGA': -65, 'PTGN': 2, 'OSU': '0', 'ATT': -16, 'VONA': -31, 'EGLN': 2, 'VZ': -18, 'DRPA': 3, 'CMCT': -14, 'UC': 0}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+GT:ATT-16,CMCT-14,DRPA3,EGLN2,GSAT-12,GT0,OSU0,PTGN2,TWC-3,UC0,UGA-65,VONA-31,VZ-18
+NODE UC > msg : 1, {'OSU': {'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': '2', 'OSU': 0, 'ATT': -52, 'VONA': -90, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': '2', 'OSU': 0, 'ATT': -52, 'VONA': -90, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE UC > msg : 2, {'GT': {'TWC': -3, 'GT': 0, 'GSAT': -12, 'UGA': -65, 'PTGN': 2, 'OSU': 0, 'ATT': -16, 'VONA': -31, 'EGLN': '2', 'VZ': -18, 'DRPA': 3, 'CMCT': -14, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': -3, 'GT': 0, 'GSAT': -12, 'UGA': -65, 'PTGN': 2, 'OSU': 0, 'ATT': -16, 'VONA': -31, 'EGLN': '2', 'VZ': -18, 'DRPA': 3, 'CMCT': -14, 'UC': '0'}
+SENDING MESSAGE
+UC:ATT-52,CMCT-78,DRPA3,EGLN2,GSAT-57,GT0,OSU0,PTGN2,TWC-50,UC0,UGA-97,VONA-90,VZ-63
+NODE OSU > msg : 1, {'UC': {'TWC': -50, 'GT': '0', 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': '0', 'ATT': -52, 'VONA': -90, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': 0}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'TWC': -50, 'GT': '0', 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': '0', 'ATT': -52, 'VONA': -90, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': 0}
+OSU:ATT-52,CMCT-78,DRPA3,EGLN2,GSAT-57,GT0,OSU0,PTGN2,TWC-50,UC0,UGA-97,VONA-90,VZ-63
+NODE EGLN > msg : 1, {'GT': {'TWC': -3, 'GT': 0, 'GSAT': -12, 'UGA': -65, 'PTGN': 2, 'OSU': 0, 'ATT': -16, 'VONA': -31, 'EGLN': '2', 'VZ': -18, 'DRPA': 3, 'CMCT': -14, 'UC': '0'}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : -2 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': -3, 'GT': 0, 'GSAT': -12, 'UGA': -65, 'PTGN': 2, 'OSU': 0, 'ATT': -16, 'VONA': -31, 'EGLN': '2', 'VZ': -18, 'DRPA': 3, 'CMCT': -14, 'UC': '0'}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+EGLN:ATT-18,CMCT-16,DRPA1,EGLN0,GSAT-14,GT-2,OSU-2,PTGN0,TWC-5,UC-2,UGA-67,VONA-33,VZ-20
+NODE DRPA > msg : 1, {'EGLN': {'TWC': -5, 'GT': '-2', 'GSAT': -14, 'UGA': -67, 'PTGN': 0, 'OSU': -2, 'ATT': -18, 'VONA': -33, 'EGLN': 0, 'VZ': -20, 'DRPA': '1', 'CMCT': -16, 'UC': -2}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': -5, 'GT': '-2', 'GSAT': -14, 'UGA': -67, 'PTGN': 0, 'OSU': -2, 'ATT': -18, 'VONA': -33, 'EGLN': 0, 'VZ': -20, 'DRPA': '1', 'CMCT': -16, 'UC': -2}
+DRPA:ATT-37,CMCT-44,DRPA0,EGLN1,GSAT-42,GT-1,OSU-1,PTGN1,TWC-24,UC-1,UGA-84,VONA-99,VZ-48
+PTGN:ATT-54,CMCT-80,DRPA2,EGLN1,GSAT-59,GT-1,OSU-1,PTGN0,TWC-52,UC-1,UGA-99,VONA-92,VZ-65
+CMCT:ATT-32,CMCT-39,GSAT-37,TWC-19,UGA-79,VONA-68,VZ-43
+TWC:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+VONA:ATT-26,CMCT-52,GSAT-31,TWC-24,UGA-73,VONA-64,VZ-37
+VZ:ATT-8,CMCT-15,GSAT-13,TWC-6,UGA-55,VONA-27,VZ-19
+ATT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+GSAT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+UGA:ATT18,CMCT20,GSAT22,TWC31,UGA-31,VONA8,VZ16
+NODE GT > msg : 1, {'UC': {'TWC': -50, 'GT': '0', 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': '0', 'ATT': -52, 'VONA': -90, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': 0}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'TWC': -50, 'GT': '0', 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': '0', 'ATT': -52, 'VONA': -90, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': 0}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+NODE GT > msg : 2, {'EGLN': {'TWC': -5, 'GT': '-2', 'GSAT': -14, 'UGA': -67, 'PTGN': 0, 'OSU': -2, 'ATT': -18, 'VONA': -33, 'EGLN': 0, 'VZ': -20, 'DRPA': '1', 'CMCT': -16, 'UC': -2}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': -5, 'GT': '-2', 'GSAT': -14, 'UGA': -67, 'PTGN': 0, 'OSU': -2, 'ATT': -18, 'VONA': -33, 'EGLN': 0, 'VZ': -20, 'DRPA': '1', 'CMCT': -16, 'UC': -2}
+SENDING MESSAGE
+GT:ATT-52,CMCT-78,DRPA3,EGLN2,GSAT-57,GT0,OSU0,PTGN2,TWC-50,UC0,UGA-97,VONA-90,VZ-63
+NODE UC > msg : 1, {'GT': {'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': 0, 'ATT': -52, 'VONA': -90, 'EGLN': '2', 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': 0, 'ATT': -52, 'VONA': -90, 'EGLN': '2', 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}
+UC:ATT-52,CMCT-78,DRPA3,EGLN2,GSAT-57,GT0,OSU0,PTGN2,TWC-50,UC0,UGA-97,VONA-90,VZ-63
+OSU:ATT-52,CMCT-78,DRPA3,EGLN2,GSAT-57,GT0,OSU0,PTGN2,TWC-50,UC0,UGA-97,VONA-90,VZ-63
+NODE EGLN > msg : 1, {'GT': {'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': 0, 'ATT': -52, 'VONA': -90, 'EGLN': '2', 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : -2 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': 0, 'ATT': -52, 'VONA': -90, 'EGLN': '2', 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+EGLN:ATT-54,CMCT-80,DRPA1,EGLN0,GSAT-59,GT-2,OSU-2,PTGN0,TWC-52,UC-2,UGA-99,VONA-92,VZ-65
+NODE DRPA > msg : 1, {'EGLN': {'TWC': -52, 'GT': '-2', 'GSAT': -59, 'UGA': -99, 'PTGN': 0, 'OSU': -2, 'ATT': -54, 'VONA': -92, 'EGLN': 0, 'VZ': -65, 'DRPA': '1', 'CMCT': -80, 'UC': -2}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': -52, 'GT': '-2', 'GSAT': -59, 'UGA': -99, 'PTGN': 0, 'OSU': -2, 'ATT': -54, 'VONA': -92, 'EGLN': 0, 'VZ': -65, 'DRPA': '1', 'CMCT': -80, 'UC': -2}
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+GAMMA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+DRPA:ATT-53,CMCT-79,DRPA0,EGLN1,GSAT-58,GT-1,OSU-1,PTGN1,TWC-51,UC-1,UGA-98,VONA-99,VZ-64
+PTGN:ATT-54,CMCT-80,DRPA2,EGLN1,GSAT-59,GT-1,OSU-1,PTGN0,TWC-52,UC-1,UGA-99,VONA-92,VZ-65
+CMCT:ATT-32,CMCT-39,GSAT-37,TWC-19,UGA-79,VONA-68,VZ-43
+TWC:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+VONA:ATT-26,CMCT-52,GSAT-31,TWC-24,UGA-73,VONA-64,VZ-37
+VZ:ATT-8,CMCT-15,GSAT-13,TWC-6,UGA-55,VONA-27,VZ-19
+ATT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+GSAT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+UGA:ATT18,CMCT20,GSAT22,TWC31,UGA-31,VONA8,VZ16
+NODE GT > msg : 1, {'EGLN': {'TWC': -52, 'GT': '-2', 'GSAT': -59, 'UGA': -99, 'PTGN': 0, 'OSU': -2, 'ATT': -54, 'VONA': -92, 'EGLN': 0, 'VZ': -65, 'DRPA': '1', 'CMCT': -80, 'UC': -2}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': -52, 'GT': '-2', 'GSAT': -59, 'UGA': -99, 'PTGN': 0, 'OSU': -2, 'ATT': -54, 'VONA': -92, 'EGLN': 0, 'VZ': -65, 'DRPA': '1', 'CMCT': -80, 'UC': -2}
+GT:ATT-52,CMCT-78,DRPA3,EGLN2,GSAT-57,GT0,OSU0,PTGN2,TWC-50,UC0,UGA-97,VONA-90,VZ-63
+UC:ATT-52,CMCT-78,DRPA3,EGLN2,GSAT-57,GT0,OSU0,PTGN2,TWC-50,UC0,UGA-97,VONA-90,VZ-63
+OSU:ATT-52,CMCT-78,DRPA3,EGLN2,GSAT-57,GT0,OSU0,PTGN2,TWC-50,UC0,UGA-97,VONA-90,VZ-63
+NODE EGLN > msg : 1, {'DRPA': {'TWC': -51, 'GT': -1, 'GSAT': -58, 'UGA': -98, 'PTGN': 1, 'OSU': -1, 'ATT': -53, 'VONA': -99, 'EGLN': '1', 'VZ': -64, 'DRPA': 0, 'CMCT': -79, 'UC': -1}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For DRPA
+		incoming outer vector name:DRPA
+		vector_mappings{'TWC': -51, 'GT': -1, 'GSAT': -58, 'UGA': -98, 'PTGN': 1, 'OSU': -1, 'ATT': -53, 'VONA': -99, 'EGLN': '1', 'VZ': -64, 'DRPA': 0, 'CMCT': -79, 'UC': -1}
+GAMMA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+EGLN:ATT-54,CMCT-80,DRPA1,EGLN0,GSAT-59,GT-2,OSU-2,PTGN0,TWC-52,UC-2,UGA-99,VONA-98,VZ-65
+NODE DRPA > msg : 1, {'EGLN': {'TWC': -52, 'GT': '-2', 'GSAT': -59, 'UGA': -99, 'PTGN': 0, 'OSU': -2, 'ATT': -54, 'VONA': -98, 'EGLN': 0, 'VZ': -65, 'DRPA': '1', 'CMCT': -80, 'UC': -2}}
+	 Node DRPA looks like a got a message
+		This is the associated weight wiht outgoing node : 1 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': -52, 'GT': '-2', 'GSAT': -59, 'UGA': -99, 'PTGN': 0, 'OSU': -2, 'ATT': -54, 'VONA': -98, 'EGLN': 0, 'VZ': -65, 'DRPA': '1', 'CMCT': -80, 'UC': -2}
+DRPA:ATT-53,CMCT-79,DRPA0,EGLN1,GSAT-58,GT-1,OSU-1,PTGN1,TWC-51,UC-1,UGA-98,VONA-99,VZ-64
+PTGN:ATT-54,CMCT-80,DRPA2,EGLN1,GSAT-59,GT-1,OSU-1,PTGN0,TWC-52,UC-1,UGA-99,VONA-92,VZ-65
+CMCT:ATT-32,CMCT-39,GSAT-37,TWC-19,UGA-79,VONA-68,VZ-43
+TWC:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+VONA:ATT-26,CMCT-52,GSAT-31,TWC-24,UGA-73,VONA-64,VZ-37
+VZ:ATT-8,CMCT-15,GSAT-13,TWC-6,UGA-55,VONA-27,VZ-19
+ATT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+GSAT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+UGA:ATT18,CMCT20,GSAT22,TWC31,UGA-31,VONA8,VZ16
+NODE GT > msg : 1, {'EGLN': {'TWC': -52, 'GT': '-2', 'GSAT': -59, 'UGA': -99, 'PTGN': 0, 'OSU': -2, 'ATT': -54, 'VONA': -98, 'EGLN': 0, 'VZ': -65, 'DRPA': '1', 'CMCT': -80, 'UC': -2}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For EGLN
+		incoming outer vector name:EGLN
+		vector_mappings{'TWC': -52, 'GT': '-2', 'GSAT': -59, 'UGA': -99, 'PTGN': 0, 'OSU': -2, 'ATT': -54, 'VONA': -98, 'EGLN': 0, 'VZ': -65, 'DRPA': '1', 'CMCT': -80, 'UC': -2}
+GAMMA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+GT:ATT-52,CMCT-78,DRPA3,EGLN2,GSAT-57,GT0,OSU0,PTGN2,TWC-50,UC0,UGA-97,VONA-96,VZ-63
+NODE UC > msg : 1, {'GT': {'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': 0, 'ATT': -52, 'VONA': -96, 'EGLN': '2', 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': 0, 'ATT': -52, 'VONA': -96, 'EGLN': '2', 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}
+GAMMA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+UC:ATT-52,CMCT-78,DRPA3,EGLN2,GSAT-57,GT0,OSU0,PTGN2,TWC-50,UC0,UGA-97,VONA-96,VZ-63
+NODE OSU > msg : 1, {'UC': {'TWC': -50, 'GT': '0', 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': '0', 'ATT': -52, 'VONA': -96, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': 0}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'TWC': -50, 'GT': '0', 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': '0', 'ATT': -52, 'VONA': -96, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': 0}
+GAMMA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+OSU:ATT-52,CMCT-78,DRPA3,EGLN2,GSAT-57,GT0,OSU0,PTGN2,TWC-50,UC0,UGA-97,VONA-96,VZ-63
+NODE EGLN > msg : 1, {'GT': {'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': 0, 'ATT': -52, 'VONA': -96, 'EGLN': '2', 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}}
+	 Node EGLN looks like a got a message
+		This is the associated weight wiht outgoing node : -2 For GT
+		incoming outer vector name:GT
+		vector_mappings{'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': 0, 'ATT': -52, 'VONA': -96, 'EGLN': '2', 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}
+EGLN:ATT-54,CMCT-80,DRPA1,EGLN0,GSAT-59,GT-2,OSU-2,PTGN0,TWC-52,UC-2,UGA-99,VONA-98,VZ-65
+DRPA:ATT-53,CMCT-79,DRPA0,EGLN1,GSAT-58,GT-1,OSU-1,PTGN1,TWC-51,UC-1,UGA-98,VONA-99,VZ-64
+NODE PTGN > msg : 1, {'OSU': {'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': '2', 'OSU': 0, 'ATT': -52, 'VONA': -96, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}}
+	 Node PTGN looks like a got a message
+		This is the associated weight wiht outgoing node : -1 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': '2', 'OSU': 0, 'ATT': -52, 'VONA': -96, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}
+GAMMA AREA In side counter 1 creating a message to send
+SENDING MESSAGE
+PTGN:ATT-54,CMCT-80,DRPA2,EGLN1,GSAT-59,GT-1,OSU-1,PTGN0,TWC-52,UC-1,UGA-99,VONA-97,VZ-65
+CMCT:ATT-32,CMCT-39,GSAT-37,TWC-19,UGA-79,VONA-68,VZ-43
+TWC:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+VONA:ATT-26,CMCT-52,GSAT-31,TWC-24,UGA-73,VONA-64,VZ-37
+VZ:ATT-8,CMCT-15,GSAT-13,TWC-6,UGA-55,VONA-27,VZ-19
+ATT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+GSAT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+UGA:ATT18,CMCT20,GSAT22,TWC31,UGA-31,VONA8,VZ16
+NODE GT > msg : 1, {'UC': {'TWC': -50, 'GT': '0', 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': '0', 'ATT': -52, 'VONA': -96, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': 0}}
+	 Node GT looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For UC
+		incoming outer vector name:UC
+		vector_mappings{'TWC': -50, 'GT': '0', 'GSAT': -57, 'UGA': -97, 'PTGN': 2, 'OSU': '0', 'ATT': -52, 'VONA': -96, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': 0}
+GT:ATT-52,CMCT-78,DRPA3,EGLN2,GSAT-57,GT0,OSU0,PTGN2,TWC-50,UC0,UGA-97,VONA-96,VZ-63
+NODE UC > msg : 1, {'OSU': {'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': '2', 'OSU': 0, 'ATT': -52, 'VONA': -96, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}}
+	 Node UC looks like a got a message
+		This is the associated weight wiht outgoing node : 0 For OSU
+		incoming outer vector name:OSU
+		vector_mappings{'TWC': -50, 'GT': 0, 'GSAT': -57, 'UGA': -97, 'PTGN': '2', 'OSU': 0, 'ATT': -52, 'VONA': -96, 'EGLN': 2, 'VZ': -63, 'DRPA': 3, 'CMCT': -78, 'UC': '0'}
+UC:ATT-52,CMCT-78,DRPA3,EGLN2,GSAT-57,GT0,OSU0,PTGN2,TWC-50,UC0,UGA-97,VONA-96,VZ-63
+NODE OSU > msg : 1, {'PTGN': {'TWC': -52, 'GT': -1, 'GSAT': -59, 'UGA': -99, 'PTGN': 0, 'OSU': '-1', 'ATT': -54, 'VONA': -97, 'EGLN': 1, 'VZ': -65, 'DRPA': 2, 'CMCT': -80, 'UC': -1}}
+	 Node OSU looks like a got a message
+		This is the associated weight wiht outgoing node : 2 For PTGN
+		incoming outer vector name:PTGN
+		vector_mappings{'TWC': -52, 'GT': -1, 'GSAT': -59, 'UGA': -99, 'PTGN': 0, 'OSU': '-1', 'ATT': -54, 'VONA': -97, 'EGLN': 1, 'VZ': -65, 'DRPA': 2, 'CMCT': -80, 'UC': -1}
+OSU:ATT-52,CMCT-78,DRPA3,EGLN2,GSAT-57,GT0,OSU0,PTGN2,TWC-50,UC0,UGA-97,VONA-96,VZ-63
+EGLN:ATT-54,CMCT-80,DRPA1,EGLN0,GSAT-59,GT-2,OSU-2,PTGN0,TWC-52,UC-2,UGA-99,VONA-98,VZ-65
+DRPA:ATT-53,CMCT-79,DRPA0,EGLN1,GSAT-58,GT-1,OSU-1,PTGN1,TWC-51,UC-1,UGA-98,VONA-99,VZ-64
+PTGN:ATT-54,CMCT-80,DRPA2,EGLN1,GSAT-59,GT-1,OSU-1,PTGN0,TWC-52,UC-1,UGA-99,VONA-97,VZ-65
+CMCT:ATT-32,CMCT-39,GSAT-37,TWC-19,UGA-79,VONA-68,VZ-43
+TWC:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+VONA:ATT-26,CMCT-52,GSAT-31,TWC-24,UGA-73,VONA-64,VZ-37
+VZ:ATT-8,CMCT-15,GSAT-13,TWC-6,UGA-55,VONA-27,VZ-19
+ATT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+GSAT:ATT-99,CMCT-99,GSAT-99,TWC-99,UGA-99,VONA-99,VZ-99
+UGA:ATT18,CMCT20,GSAT22,TWC31,UGA-31,VONA8,VZ16

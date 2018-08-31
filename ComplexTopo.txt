@@ -1,0 +1,35 @@
+# Complex Topology
+# NOTE: Node names were chosen randomly and are not meant to indicate any explicit or implied preference.
+#
+#(-50)---ATT<--(1)--> CMCT <--(12)--DRPA <--(1)--> EGLN --(-2)--> GT
+#  |    ^ | ^          ^                            ^            / ^
+#  |   /  |  \      (0)|                             \          /  | 
+#  | (50) |  (2)       |                              ---(2)---    | (0)
+#  v /    |    \       v                                           v
+# UGA   (-8)    VZ    TWC                                         UC
+#  ^ \    |      ^     |                                           ^
+#  | (50) |       \   (1)                                          |
+#  |   \  |       (8)  |                                           | (0)
+#  |    v v         \  v                                           v
+# (0)---GSAT--(-3)-> VONA <---(3)--PTGN ----------(-1)----------> OSU
+#         ^         /                ^                            /
+#          \       /                  \                          /
+#           --(3)--                    ------------(2)-----------
+#
+# File Format:
+# Node, Neighbor, Weight, Neighbor, Weight  (repeat as needed)
+#
+GT,UC,0,EGLN,2
+UC,GT,0,OSU,0
+OSU,UC,0,PTGN,2
+EGLN,GT,-2,DRPA,1
+DRPA,EGLN,1,CMCT,12
+PTGN,OSU,-1,VONA,3
+CMCT,ATT,1,TWC,0
+TWC,CMCT,0,VONA,1
+VONA,VZ,8,GSAT,3
+VZ,ATT,2
+ATT,UGA,-50,GSAT,-8,CMCT,1
+GSAT,VONA,-3,UGA,0
+UGA,ATT,50,GSAT,50
+
